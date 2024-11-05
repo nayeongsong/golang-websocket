@@ -1,0 +1,21 @@
+info:
+  contact: {}
+paths:
+  /example:
+    get:
+      consumes:
+      - application/json
+      description: This is an example handler
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Example handler
+      tags:
+      - example
+swagger: "2.0"
