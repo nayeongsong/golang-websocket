@@ -1,5 +1,4 @@
 import fs from "fs"
-import { parse } from "node-html-parser"
 
 // List of cities you want to fetch HTML for (you can loop through this list later if needed)
 const cities = ["seoul", "tokyo"]

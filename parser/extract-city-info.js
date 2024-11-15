@@ -5,6 +5,11 @@ const parser = require("node-html-parser")
 const dataDir = path.join(__dirname, "data")
 const outputDir = path.join(__dirname, "json_data")
 
+// Ensure the output directory exists
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir)
+}
+
 function cleanKeyText(text) {
   return toSnakeCase(removeEndingBracket(text.replace(/^[^\w\s]+/, "").trim()))
 }
@@ -32,25 +37,11 @@ function toSnakeCase(str) {
     .replace(/ /g, "_") // Replace spaces with underscores
 }
 
-// Function to remove any ending bracket from the string
 function removeEndingBracket(str) {
   return str.replace(/[\(\)]/g, "").trim()
 }
 
-// Ensure the output directory exists
-if (!fs.existsSync(outputDir)) {
-  fs.mkdirSync(outputDir)
-}
-
-const html_file_path = path.join(dataDir, "zurich_page.html")
-
-fs.readFile(html_file_path, "utf8", (err, html) => {
-  if (err) {
-    console.error("Error reading HTML file:", err)
-    return
-  }
-
-  // Parse the HTML content
+function processCountryHtml(html) {
   const root = parser.parse(
     html.replace("tab-digital-nomad-guide ", "tab-digital-nomad-guide"),
     {
@@ -71,7 +62,7 @@ fs.readFile(html_file_path, "utf8", (err, html) => {
   const detailsTables = root.querySelectorAll("table.details")
 
   const details = {}
-  detailsTables.map((detailsTable) => {
+  detailsTables.forEach((detailsTable) => {
     const rows = detailsTable
       .querySelectorAll("tr")
       .filter(
@@ -79,7 +70,7 @@ fs.readFile(html_file_path, "utf8", (err, html) => {
           !row.hasAttribute("data-key") && !row.hasAttribute("data-value")
       )
 
-    rows.map((row) => {
+    rows.forEach((row) => {
       const keyElement = row.querySelector(".key")
       const valueElement = row.querySelector(".value")
       const imgElement = valueElement ? valueElement.querySelector("img") : null
@@ -89,11 +80,11 @@ fs.readFile(html_file_path, "utf8", (err, html) => {
         : null
 
       let additionalAttributes = {}
+      let value = ""
+
       if (valueElement && valueElement.querySelector(".filling")) {
-        // If there is a nested div with class 'filling', get its text content
         value = valueElement.querySelector(".filling").text.trim()
       } else if (valueElement) {
-        // Otherwise, get the text content of the value element
         value = valueElement.text.trim()
       }
 
@@ -109,7 +100,6 @@ fs.readFile(html_file_path, "utf8", (err, html) => {
       }
 
       if (logoElement) {
-        console.log("logo element exist")
         additionalAttributes.logo_url = logoElement.getAttribute("src")
       }
 
@@ -132,7 +122,6 @@ fs.readFile(html_file_path, "utf8", (err, html) => {
     const divs = prosAndConsSection.querySelectorAll("div")
 
     if (divs.length >= 2) {
-      // First <div> for pros, second <div> for cons
       const prosElements = divs[0].querySelectorAll("p")
       const consElements = divs[1].querySelectorAll("p")
 
@@ -167,15 +156,40 @@ fs.readFile(html_file_path, "utf8", (err, html) => {
   }
 
   // Combine scores and details into a single JSON object
-  const result = {
+  return {
     scores: scores,
     details: details,
     pros_cons: prosCons,
     reviews: reviews,
   }
+}
+
+async function main() {
+  const result = {}
+  const files = fs.readdirSync(dataDir)
+
+  const filePromises = files.map((file) => {
+    return new Promise((resolve, reject) => {
+      const filePath = path.join(dataDir, file)
+      fs.readFile(filePath, "utf8", (err, html) => {
+        if (err) {
+          console.error("Error reading HTML file:", err)
+          reject(err)
+          return
+        }
+
+        const countryName = file.replace("_page.html", "")
+        const countryData = processCountryHtml(html)
+        result[countryName] = countryData
+        resolve()
+      })
+    })
+  })
+
+  await Promise.all(filePromises)
 
   // Save the resulting JSON to a file
-  const jsonPath = "json_data/output.json"
+  const jsonPath = path.join(outputDir, "output.json")
   fs.writeFile(
     jsonPath,
     JSON.stringify(result, null, 2),
@@ -188,4 +202,6 @@ fs.readFile(html_file_path, "utf8", (err, html) => {
       console.log("Data has been written to output.json")
     }
   )
-})
+}
+
+main().catch(console.error)
