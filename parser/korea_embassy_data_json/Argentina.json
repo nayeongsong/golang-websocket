@@ -1,0 +1,27 @@
+{
+  "currentCount": 1,
+  "data": [
+    {
+      "center_tel_no": null,
+      "country_eng_nm": "Argentina",
+      "country_iso_alp2": "AR",
+      "country_nm": "아르헨티나",
+      "embassy_cd": "ar",
+      "embassy_kor_nm": "주 아르헨티나 대한민국 대사관",
+      "embassy_lat": -34.579598,
+      "embassy_lng": -58.405488,
+      "embassy_manage_ty_cd": "1",
+      "embassy_manage_ty_cd_nm": "일반",
+      "embassy_ty_cd": "10",
+      "embassy_ty_cd_nm": "대사관",
+      "emblgbd_addr": "Av. del Libertador 2395 , C.A.B.A  (1425),  Argentina",
+      "free_tel_no": null,
+      "tel_no": "(54) 11-4802-8865",
+      "urgency_tel_no": "(54) 911-4141-1450"
+    }
+  ],
+  "matchCount": 1,
+  "page": 1,
+  "perPage": 10,
+  "totalCount": 184
+}
