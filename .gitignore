@@ -23,3 +23,12 @@ go.work.sum
 
 # env file
 .env
+
+# postgres
+postgres-data
+
+parser/node_modules
+
+.DS_Store
+temp/
+tmp/
