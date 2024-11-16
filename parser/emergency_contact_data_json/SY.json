@@ -1,0 +1,22 @@
+{
+  "currentCount": 1,
+  "data": [
+    {
+      "contact_remark": "\u003cdiv\u003e\r\n\u003ch3 class=\"tit\"\u003e대사관 연락처\u003c/h3\u003e\r\n※ 시리아에는 우리대사관이 없으며, 주레바논한국대사관이 겸임하고 있습니다.\u003cbr\u003e\r\nㅇ 주소 : Embassy of the Republic of Korea, Nadim Munla bldg. Officers Club street-Yarzeh-baabda P.O Box 40-290 Baabda, Lebanon \u003cbr\u003e\r\nㅇ 대표번호(근무시간 중) :\u0026nbsp;(961) 5-922-846\u003cbr\u003e\r\nㅇ 긴급연락처(사건사고 등 긴급상황 발생 시, 24시간) : (961) 81-007-491\u003cbr\u003e\r\nㅇ E-mail : \u003ca href=\"mailto:lbkor@mofa.go.kr\"\u003elbkor@mofa.go.kr\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e\r\n\r\n\u003ch3 class=\"tit\"\u003e주재국 신고\u003c/h3\u003e\r\nㅇ 경찰 : 112\u003cbr\u003e\r\nㅇ Emergency : 110\u003cbr\u003e\r\nㅇ 화재 : 113\u003cbr\u003e\r\nㅇ 교통경찰 : 115\u003cbr\u003e\u003cbr\u003e\r\n\r\n\u003ch3 class=\"tit\"\u003e의료기관 연락처\u003c/h3\u003e\r\nㅇ 시리아 주요 도시에서의 의료체계 및 시설은 일반적인 수준입니다. 의료시설 약품 등 대체로 양호합니다. 하지만 소도시나 시 외곽 시설은 수준이 떨어집니다.\u003cbr\u003e\r\n\u003c/div\u003e",
+      "continent_cd": "40",
+      "continent_eng_nm": "Middle East",
+      "continent_nm": "중동",
+      "country_eng_nm": "Syria",
+      "country_iso_alp2": "SY",
+      "country_nm": "시리아",
+      "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_131\u0026file_sn=3",
+      "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/131/20241014_141728679.png",
+      "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/131/20220318_170052136.png",
+      "wrt_dt": "2024-08-01"
+    }
+  ],
+  "matchCount": 1,
+  "page": 1,
+  "perPage": 10,
+  "totalCount": 198
+}
