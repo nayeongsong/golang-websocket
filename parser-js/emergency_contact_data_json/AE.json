@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "40",
+    "continent_eng_nm": "Middle East",
+    "continent_nm": "중동",
+    "country_eng_nm": "United Arab Emirates : UAE",
+    "country_iso_alp2": "AE",
+    "country_nm": "아랍에미리트",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_135&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/134/20241010_172359081.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/134/20220318_154219674.png",
+    "wrt_dt": "2023-11-24",
+    "address": "P.O.Box 3270, Abu Dhabi, United Arab Emirates",
+    "email": null,
+    "representative_number": "(971) 2-441-1520",
+    "emergency_contact": "(971) 50-133-7362",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 의료체계 일반<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 아랍에미리트에 근무하는 모든 근로자는 의무적으로 의료보험을 가입하게 되어있으며, 동 의료보험으로 약간의 진료비(약 20-50디르함, 의료보험에 따라 다름)만 지불하고 병원을 이용할수 있습니다. 의료보험이 없는 경우 일반병원은 1회의 진료시 약150-200디르함(40-50미불)의 진료비를 지불합니다.<br>\r\n- 일반병원은 많이 있으나, 의료 수준이 떨어져 전문적 수술이 필요한 경우는 외국으로 나가 치료를 받아야 하는 경우도 있습니다.<br>\r\n- 응급실에 가는 경우에도 몇 시간씩 기다리는 경우가 허다하므로 기본 상비약은 가정에 비치해 두는 것이 좋습니다. </p><br>\r\n\r\n[우리나라 의료기관의 주재국 진출]<br>\r\nㅇ 삼성병원, 우리들병원, 온치과 등 우리나라 의료기관이 최근 두바이지역에 현지병원을 설립 운영하고 있습니다.<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 두바이 삼성병원 : 971-4-449-5454<br>\r\n- 온치과 : 971-4-429-8400</p><br>\r\n\r\n[영어사용이 가능한 병원 정보(아부다비)]<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Khalifa Medical Center(공립병원) : 971-2-610-2000<br>\r\n- Al Mafraq Hospital(공립병원) : 971-2-501-1111<br>\r\n- NMC(New Medical Center) : 971-2-633-2255<br>\r\n- Ahalia Hospital : 971-2-626-2666<br>\r\n- Gulf Diagnostic Center : 971-2-665-8090<br>\r\n- Al Noor Hospital : 971-2-626-5265</p>\r\nㅇ 감기약 등 일반 약품은 처방전없이 약국에서 구입이 가능합니다.<br>"
+  }
+]

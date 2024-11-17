@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "50",
+    "continent_eng_nm": "Africa",
+    "continent_nm": "아프리카",
+    "country_eng_nm": "Kenya",
+    "country_iso_alp2": "KE",
+    "country_nm": "케냐",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_206&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/196/20220318_163022023.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/196/20220318_163022087.png",
+    "wrt_dt": "2022-08-02",
+    "address": "1st, 2 nd Fl. Misha Tower, Westlands Road, Nairobi, Kenya",
+    "email": "emb-ke@mofa.go.kr",
+    "representative_number": null,
+    "emergency_contact": null,
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ나이로비의 경우 동부아프리카 지역 내에서는 비교적 일정수준의 시설을 갖춘 병원(Nairobi hospital, Aga Khan 등)이 있으며, 나이로비 외 지역은 소규모 병원이 지역별로 있으나 외국인이 사용하기 불편하고 응급처치 정도만 되는 수준<br>\r\nㅇ 여행객 또는 현지 거주 외국인이 치료를 받고자 할 경우 많은 비용이 소요되며, 특히 입원할 경우 엄청난 보증금(deposit)을 요구하는 경향이 있습니다. 퇴원시 보증금의 대부분이 치료비로 청구(청구서 내역을 세밀히 확인해야 함)되고, 보증금을 반환 받기도 매우 어려우므로 입원시 보증금에 대하여 적절하게 협상을 하는 것이 좋습니다.<br>\r\nㅇ 주요 병원 연락처 Nairobi hospital - (020) 2845000 Aga Khan - (020) 3662000, Kenyatta Hospital - (020) 2726300 <br>\r\nㅇ 나이로비외 지역에서 사고 발생시에는 응급처치만 하고, 차량이 없는 경우 나이로비 지역으로 환자를 운송하는 앰블런스를 요청하는 것이 필요<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- ST. Johns Ambulance : (020) 334 02 62/74/83<br>\r\n- AMREF Flying Doctor Service : (020) 6992299 / 3315455 / 6002492<br>\r\n- Intensive Care Air Ambulance : (020) 600-4945<br>\r\n- AAR Emergency Ambuance : (020) 2717374</p>"
+  }
+]

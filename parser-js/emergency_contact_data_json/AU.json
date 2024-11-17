@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "10",
+    "continent_eng_nm": "Asia",
+    "continent_nm": "아주",
+    "country_eng_nm": "Australia",
+    "country_iso_alp2": "AU",
+    "country_nm": "호주",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_255&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/240/20241015_095812496.jpg",
+    "map_download_url": null,
+    "wrt_dt": "2023-11-24",
+    "address": "113 Empire Circuit Yarralumla ACT 2600, Australia",
+    "email": null,
+    "representative_number": "(61) 2-6270-4100",
+    "emergency_contact": "(61) 408-815-922",
+    "jurisdiction": "시드니, 다윈 등 NSW, NT 지역",
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": null
+  }
+]

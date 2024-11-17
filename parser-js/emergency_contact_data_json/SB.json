@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "10",
+    "continent_eng_nm": "Asia",
+    "continent_nm": "아주",
+    "country_eng_nm": "Solomon Islands",
+    "country_iso_alp2": "SB",
+    "country_nm": "솔로몬제도",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_311&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/122/20241015_103712808.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/122/20220318_165547504.png",
+    "wrt_dt": "2022-08-22",
+    "address": "4th Floor, Pacific MMI Building, Sec : 21, Lot 2&amp;3, Champion Parade, Granville, Port Moresby, Papua New Guinea",
+    "email": null,
+    "representative_number": "(675) 321-5822",
+    "emergency_contact": "(675) 7394-6778",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": "999",
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 수도 호니아라에는 국립병원 National Referral Hospital(+677 25256)이 있지만 의료인과 장비들이 부족한 관계로 긴급 조치만이 가능하고 심각한 상태일 경우 완치를 기대하기 힘든 실정입니다.<br><br>\r\n\r\n[감염병 동향]<br>\r\nㅇ 코로나19<br>\r\nㅇ 말라리아 및 뎅기(dengue) : 솔로몬제도 전역 및 연중 감염 위험 상존<br>\r\nㅇ 지카바이러스(zikavirus) 로타바이러스 (rotavirus) : 감염 사례 있음(특히 유아, 어린이)<br>\r\nㅇ 간염(hebatitis), 결핵(tuberculosis), 사상충증(filariasis), 볼거리, 장티푸스(typhoid)<br>"
+  }
+]

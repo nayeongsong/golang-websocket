@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "40",
+    "continent_eng_nm": "Middle East",
+    "continent_nm": "중동",
+    "country_eng_nm": "Egypt",
+    "country_iso_alp2": "EG",
+    "country_nm": "이집트",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_178&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/172/20241014_140640284.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/172/20220318_161328752.png",
+    "wrt_dt": "2023-08-04",
+    "address": "3 Boulos Hanna St., Dokki, Cairo, A.R.E",
+    "email": null,
+    "representative_number": "(20) 2-3761-1234~7",
+    "emergency_contact": "(20) 12-8333-3236",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": null
+  }
+]

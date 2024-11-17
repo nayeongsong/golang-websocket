@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "30",
+    "continent_eng_nm": "Europe",
+    "continent_nm": "유럽",
+    "country_eng_nm": "Moldova",
+    "country_iso_alp2": "MD",
+    "country_nm": "몰도바",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_65&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/77/20220318_163755114.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/77/20220318_163755169.png",
+    "wrt_dt": "2023-11-24",
+    "address": "43, Volodymyrska st., Kyiv, Ukraine",
+    "email": null,
+    "representative_number": "(380) 44-246-3759",
+    "emergency_contact": "(380) 95-119-0404",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": null
+  }
+]

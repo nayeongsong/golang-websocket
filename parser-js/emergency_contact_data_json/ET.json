@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "50",
+    "continent_eng_nm": "Africa",
+    "continent_nm": "아프리카",
+    "country_eng_nm": "ETC",
+    "country_iso_alp2": "ET",
+    "country_nm": "에티오피아",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_156&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/153/20220318_161440363.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/153/20220318_161440418.png",
+    "wrt_dt": "2023-09-04",
+    "address": "Embassy of the Republic of Korea P.O.Box 2047, Addis Ababa, Ethiopia",
+    "email": null,
+    "representative_number": null,
+    "emergency_contact": "(251) 907-66-04-04",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": null
+  }
+]

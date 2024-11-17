@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "30",
+    "continent_eng_nm": "Europe",
+    "continent_nm": "유럽",
+    "country_eng_nm": "Serbia",
+    "country_iso_alp2": "RS",
+    "country_nm": "세르비아",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_287&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/115/20220318_165434935.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/115/20220318_165434996.png",
+    "wrt_dt": "2023-11-24",
+    "address": null,
+    "email": null,
+    "representative_number": "(381) 11-3674-225",
+    "emergency_contact": "(381) 63-108-1397",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 응급센터(24시간) : Gradski zavod za hitnu medicinsku pomo<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Bulevar Fran?e D Eperea 5, 11000 Beograd<br>\r\n- 전화 : 011/361-5001, 팩스: 011/361-3489</p>\r\nㅇ 군병원 Vojnomedicinska akademija (VMA)<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Crnotravska 17, 11000 Beograd\r\n- 전화 : 011/266-2755, 266-1122, 팩스: 011/266-6164<br>\r\n- 진찰 예약: 011/266-2717, 360-9398, 360-9399, 360-8498</p>"
+  }
+]

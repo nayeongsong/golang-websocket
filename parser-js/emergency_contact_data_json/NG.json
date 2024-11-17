@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "50",
+    "continent_eng_nm": "Africa",
+    "continent_nm": "아프리카",
+    "country_eng_nm": "Nigeria",
+    "country_iso_alp2": "NG",
+    "country_nm": "나이지리아",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_18&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/30/20241008_142959407.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/30/20220318_164734033.png",
+    "wrt_dt": "2022-08-02",
+    "address": "No.9 Ovia cresent, Off Pope John Paul Ⅱ street, Off Gana street, Maitama, Abuja",
+    "email": "emb-ng@mofa.go.kr",
+    "representative_number": "(234) 810-389-0991",
+    "emergency_contact": "(234) 90-8650-2916",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 나이지리아의 경우 의료시설이 매우 열악하나 아래 병원에서 기본적인 응급조치는 가능합니다.<br>\r\n\r\n[아부자]<br>\r\nㅇ Nizamiye Hospital : 0816-666-6023<br>\r\nㅇ Dr Hassan's clinic : 0706-686-2500, 0810-368-5559<br><br>\r\n\r\n[라고스]<br>\r\nㅇ Reddington Hospital(Victoria Island) : 0812-800-8187, 01-271-5340(앰뷸런스 이용 가능)<br>\r\nㅇ St. Francis Hospital : 0907-972-0888, 0803-705-8454<br>\r\nㅇ St. Nicholas Hospital : 0802-290-8484, 01-271-8690<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">※ 말라리아 예방약 등 가정상비약은 약국에서 구매할 수 있으며, 약국은 주요 시설 및 호텔 내에서 찾으실 수 있습니다.</p>"
+  }
+]

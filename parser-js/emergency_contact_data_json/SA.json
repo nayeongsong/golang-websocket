@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "40",
+    "continent_eng_nm": "Middle East",
+    "continent_nm": "중동",
+    "country_eng_nm": "Saudi Arabia",
+    "country_iso_alp2": "SA",
+    "country_nm": "사우디아라비아",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_107&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/108/20241010_172156601.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/108/20220318_165528112.png",
+    "wrt_dt": "2022-08-02",
+    "address": "Dipomatic Quarter, P.O.Box 94399, Riyadh 11693, Kingdom of Saudi Arabia",
+    "email": null,
+    "representative_number": "(966) 11-488-2211",
+    "emergency_contact": "(966) 50-080-1065",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 사우디아라비아는 비교적 우수한 보건 의료시설을 보유하고 있으며, 의료진은 대부분 제3국인 출신으로 영어 소통이 가능합니다.<br>\r\nㅇ 의료비가 고액이므로 가급적 보험에 가입하는 것이 바람직합니다.<br>\r\n<p style=\"margin-left: 25px; margin-right: 25px;\">※ 리야드 시내 종합 병원(한국인 간호사 근무 병원)</p>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- King Saud Medical Complex(공공병원으로 여행자의 경우, 응급처치만 가능), 전화: 435-5555<br>\r\n- King Fahd Hospital National Guard, 전화 : 011-801-1111<br>\r\n- Dr. Sulaiman Al Habib Hospital, 전화 : 011-283-3333, 490-9999, 525-9999<br>\r\n- Dallah Hospital (개인병원), 전화: 470-2777</p>\r\nㅇ 주요 도시의 약국에서는 수입 약품들이 많이 구비되어 있으며, 약품 구입 시 처방전이 필요하나, 감기약, 진통제, 알레르기약 등 단순의약품은 처방전 없이도 구입이 가능합니다.<br><br>\r\n\r\nㅇ 리야드 시내 주요 약국(24시간 영업)<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- SAGAF(전화: 461-5921)<br>\r\n- Al NAHDI(전화: 225-4388)</p><br>\r\n\r\nㅇ 메르스는 지역 별로 중점 관리 병원을 지정하고 있으므로, 의심증상 발생 시 혹은 인근 병원 전문 의료진을 통해 상담 및 진찰 가능합니다.<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 리야드: Prince Mohammad bin Abdul-Aziz hospital (전화: 261-6666)<br>\r\n- 동부: Dammam Medical Complex (전화: 846-7390)<br>\r\n- 젯다: King Fahd Hospital (전화: 660-6111)<br>\r\n- 전국: 메르스 무료 상담 전화 937</p><br>\r\nㅇ 남서부 Jizan 지역은 말라리아 잠재 지역이며, 예멘 후티반군의 산발적 미사일 공격을 받고 있으므로 동 지역 여행 시 각별한 주의가 필요합니다.<br>"
+  }
+]

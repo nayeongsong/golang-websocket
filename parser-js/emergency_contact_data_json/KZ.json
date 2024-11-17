@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "30",
+    "continent_eng_nm": "Europe",
+    "continent_nm": "유럽",
+    "country_eng_nm": "Kazakhstan",
+    "country_iso_alp2": "KZ",
+    "country_nm": "카자흐스탄",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_201&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/192/20220318_163310295.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/192/20220318_163310352.png",
+    "wrt_dt": "2023-11-24",
+    "address": "Obagan 5, Nur-Sultan 010009 Kazakhstan",
+    "email": null,
+    "representative_number": "(7) 7172-572-100",
+    "emergency_contact": "(7) 705-757-9922",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": "102",
+      "fire": "101",
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 전반적으로 의료시설 및 수준이 낙후되어 있고 위생관념이 낮으므로 가급적 현지에서는 수술을 피하는 것이 좋으며, 현지 병원에서 치료나 수술을 받는 경우 의사소통이 가능한 전문의를 통해 치료를 받는 것을 권장합니다.<br>\r\nㅇ 특히, 치과치료는 우리나라에 비해 기술과 수준이 낮기 때문에 가급적 국내에서 치료 후 방문하는 것이 좋습니다.<br>\r\nㅇ 대부분의 약품은 의사 처방 없이 약국에서 구입이 가능하지만 언어 문제로 인한 잘못된 약 처방 가능성이 있으므로 상비약이나 의사 처방이 필요한 약은 사전에 한국에서 준비해 가지고 오는 것이 좋습니다.<br>"
+  }
+]

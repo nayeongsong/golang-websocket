@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "50",
+    "continent_eng_nm": "Africa",
+    "continent_nm": "아프리카",
+    "country_eng_nm": "Mauritius",
+    "country_iso_alp2": "MU",
+    "country_nm": "모리셔스",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_61&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/72/20241008_145739070.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/72/20220318_164439982.png",
+    "wrt_dt": "2023-11-24",
+    "address": null,
+    "email": "ambcoreemg@mofa.go.kr",
+    "representative_number": "(261) 20-222-2933",
+    "emergency_contact": "+82-2-3210-0404(외교부 영사콜센터)",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 공영 병원과 보건소(public hospital and clinics)에서 치료를 받는 것은 외국인도 무료이며, 영어를 사용하기 때문에 편리합니다. 하지만 병원이 불결하고 의료 서비스에 대한 신뢰가 떨어져 외국인들은 대개 사립 병원을 이용합니다.<br>\r\nㅇ 사립병원은 의료 서비스가 공영 병원보다 낫고 깨끗하기는 하지만 비용이 매우 비쌉니다.(예, 하루 입원비 60만 원, 급성맹장 수술로 4일 입원 시 400만 원 정도)<br>\r\nㅇ 병원으로는 Doctor Jeetoo Hospital, Princess Margaret/Orthopaedic Hospital 등이 있습니다.<br>\r\nㅇ 약은 처방전에 의해 구입할 수 있으며, 약국이 동네마다 있어서 유럽산이나 인도산 약을 쉽게 구입할 수 있습니다.<br>"
+  }
+]

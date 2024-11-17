@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "20",
+    "continent_eng_nm": "America",
+    "continent_nm": "미주",
+    "country_eng_nm": "Paraguay",
+    "country_iso_alp2": "PY",
+    "country_nm": "파라과이",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_237&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/224/20241007_160923342.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/224/20220318_165336860.png",
+    "wrt_dt": "2022-08-02",
+    "address": "Av. Rep. Argentina No. 678 esq. Pacheco, Asuncin Paraguay",
+    "email": null,
+    "representative_number": "(595) 21-605-401",
+    "emergency_contact": "(595) 981-593-448",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 주재국 의료체계는 국립병원과 사립병원이 있으며 국립병원은 시설이 낙후되어 있음<br>\r\nㅇ 사립병원의 진찰료는 1회 10만 과라니(약 2만원) 이상<br>\r\nㅇ 약국에서 항생제 등 약을 구입하려면 우리나라처럼 의사의 처방전을 구비 요망.<br>\r\nㅇ 아순시온 시내 종합 병원<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Hospital Migone<br>\r\n* Tel: 214-305<br><br>\r\n\r\n- Hospital San Roque<br>\r\n* Tel: 212-499/ 214-360-2<br><br>\r\n\r\n- Hospital Santa Clara<br>\r\n* Tel: 418-0000<br><br>\r\n\r\n- Hospital La Costa<br>\r\n* Tel: 202-900<br><br>\r\n\r\n- Hospital Adventista<br>\r\n* Tel: 200-916</p>"
+  }
+]

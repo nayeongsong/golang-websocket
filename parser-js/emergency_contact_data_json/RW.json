@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "50",
+    "continent_eng_nm": "Africa",
+    "continent_nm": "아프리카",
+    "country_eng_nm": "Rwanda",
+    "country_iso_alp2": "RW",
+    "country_nm": "르완다",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_45&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/56/20220318_165509439.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/56/20220318_165509497.png",
+    "wrt_dt": "2023-03-16",
+    "address": "P.O Box 6404, 34 KG 13 Ave(Golf Course Road), Nyarutarama, Kigali, Rwanda",
+    "email": "koremb-rwanda@mofa.go.kr",
+    "representative_number": "(250) 252-577-577",
+    "emergency_contact": "(250) 783-834-627",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 르완다의 의료시설(치과 포함)은 제한적이고 약품도 부족하기 때문에 심각한 병에 걸렸을 경우 케냐나 남아공으로 가야 합니다.<br>\r\n&nbsp;&nbsp;&nbsp;&nbsp; - 말라리아 등 풍토병의 경우, 한국인이 걸린 사례가 많지는 않으나, 충분한 주의가 필요합니다.<br>\r\nㅇ 종합병원인 King Faisal hospital 관련 정보는 아래와 같습니다.<br><br>\r\n\r\n[King Faisal Hospital]<br>\r\nㅇ 주소 : P.O Box 2534 Kigali, Rwanda<br>\r\nㅇ 전화번호 : (+250) 252-588-888 /252-589-905 /252-587-777 or 078-830-9002<br>\r\nㅇ 24시 센터 : 078-853-0351<br>\r\nㅇ 홈페이지 : <a href=\"http://kfh.rw/\" target=\"_blank\">http://kfh.rw/</a>&nbsp;"
+  }
+]

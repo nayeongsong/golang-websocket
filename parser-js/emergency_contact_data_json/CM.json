@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "50",
+    "continent_eng_nm": "Africa",
+    "continent_nm": "아프리카",
+    "country_eng_nm": "Cameroon",
+    "country_iso_alp2": "CM",
+    "country_nm": "카메룬",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_199&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/190/20241008_152946961.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/190/20220318_160445909.png",
+    "wrt_dt": "2022-11-29",
+    "address": "House NO. 85, Rosa Park Avenue, Ntougou-Golf, P.O.Box, 13286, Yaounde, Cameroon",
+    "email": null,
+    "representative_number": "(237) 222-203-891, (237) 222-203-756",
+    "emergency_contact": "(237) 689-32-40-22",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "(괄호 안은 한국에서 전화할 떄 번호입니다)<br>\r\nㅇ 야운데(Yaoundé) : 오삐딸 썽트랄(Hôpital Central) +237-222-234-020  / 오삐딸 제네랄(Hôpital Générale) +237–222-202-802<br>\r\nㅇ 두알라(Douala) : 오삐딸 라킨티니(Hôpital Laquintinie) +237-243-800-908<br>\r\nㅇ 은가운데레(Ngaoundéré) : 오삐딸 레지오날(Hôpital Régional) +237-222-251-603<br>\r\nㅇ 베르투아(Bertoua) : 오삐딸 레지오날(Hôpital Régional) +237-650-862-089<br>\r\nㅇ 마루아(Maroua) : 오삐딸 레지오날(Hôpital Régional) +237-699-544-722<br>\r\nㅇ 가루아(Garoua) : 오삐딸 레지오날(Hôpital Régional) +237-699-894-869<br>\r\nㅇ 바멘다(Bamenda) : 오삐딸 레지오날(Hôpital Régional) +237-233-361-108<br>\r\nㅇ 바푸삼(Bafoussam) : 오삐딸 레지오날(Hôpital Régional) +237-233-441-211<br>"
+  }
+]

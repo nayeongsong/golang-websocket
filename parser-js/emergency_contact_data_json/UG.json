@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "50",
+    "continent_eng_nm": "Africa",
+    "continent_nm": "아프리카",
+    "country_eng_nm": "Uganda",
+    "country_iso_alp2": "UG",
+    "country_nm": "우간다",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_166&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/165/20220318_170547309.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/165/20220318_170547368.png",
+    "wrt_dt": "2022-08-02",
+    "address": "Embassy of the Republic of Korea, Plot 14, Ternan Road, Nakasero, Kampala, Uganda, P.O.Box 27278",
+    "email": "emb.kampala@mofa.go.kr\" target=\"_blank",
+    "representative_number": "(256) 414-500-197",
+    "emergency_contact": "(256) 774-478-376",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 베데스다선교병원(캄팔라) : 0414 530 313, 0794 530 313<br>\r\nㅇ International Hospital Kampala(캄팔라) : 0312 200 400<br>\r\nㅇ Nakasero Hospital(캄팔라) : 0312 531 400<br>\r\nㅇ The Surgery(캄팔라) : 0772 756 003, 031 225 6001~3<br>\r\nㅇ Jinja Regional Referral Hospital(진자) : 0434 256 431<br>\r\nㅇ Gulu Regional Referral Hospital(굴루) : 0783 727 041<br>\r\nㅇ Kumi Hospital(쿠미) : 0776 221 443<br>\r\nㅇ Mbale Regional Referral Hospital(음발레) : 0777 837 451 <br>\r\nㅇ Mbarara Regional Referral Hospital(음바라라) : 0784 902 234<br>"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "30",
+    "continent_eng_nm": "Europe",
+    "continent_nm": "유럽",
+    "country_eng_nm": "Denmark",
+    "country_iso_alp2": "DK",
+    "country_nm": "덴마크",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_31&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/42/20220318_160957995.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/42/20220318_160958055.png",
+    "wrt_dt": "2022-07-26",
+    "address": "Svanemøllevej 104, 2900 Hellerup, Denmark",
+    "email": null,
+    "representative_number": "(45) 3946-0400",
+    "emergency_contact": "(45) 2521-7461",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 국립의료 서비스 이용을 위한 통합 연락번호 : 1813<br>\r\nㅇ 여행 중 (24시간) 응급환자 발생 및 병원 진료 희망시 우선 ☏ 1813 으로 연락하여 현재 상태와 위치 등의 개인정보를 알려주고 방문 가능한 국립병원 (응급실 포함) 을 안내 받습니다. 1813은 영어로 의사소통이 가능하며, 통역지원이 필요할 경우 외교부 영사콜센터 (+82 2 3210 0404) 무료통역 지원서비스를 활용하시기 바랍니다.<br>"
+  }
+]

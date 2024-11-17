@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "30",
+    "continent_eng_nm": "Europe",
+    "continent_nm": "유럽",
+    "country_eng_nm": "Slovenia",
+    "country_iso_alp2": "SI",
+    "country_nm": "슬로베니아",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_130&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/130/20220318_165717405.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/130/20220318_165717468.png",
+    "wrt_dt": "2022-11-29",
+    "address": "Gregor-Mendel-Strasse 25, 1180 Wien",
+    "email": "austria@mofa.go.kr",
+    "representative_number": "(43) 1-478-1991",
+    "emergency_contact": "(43) 664-527-0743",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": "113",
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 주치의 제도가 확실하므로 비자를 받은 경우에는 개인 주치의를 방문하고, 여행객 신분일 때는 종합병원 응급실을 방문하여 1차 검진을 받고 전문의 소개를 받는 것이 좋습니다.<br>\r\nㅇ 여행자의 경우 진료비가 비싸므로 여행 전에 의료 및 여행자 보험에 가입하는 것이 좋습니다.<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 치료비 및 입원비 등은 우선 자비로 선지불하고 귀국 후 보험회사에 청구할 수 있습니다.<br>\r\n- 여행 출발 전 의료보험가입회사에 해외발생 의료비 혜택 여부를 확인하는 것이 좋습니다.</p>\r\nㅇ 감기, 두통 등에 대한 가벼운 증세를 치료하기 위한 약품은 처방전 없이 구입하실 수 있습니다.<br><br>\r\n\r\nㅇ 류블랴나 종합병원(Klinini center)의 연락처는 다음과 같습니다.<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 주소 : Klinini center Ljubljana, Zaloka cesta 2, 1000 Ljubljana<br>\r\n- 일반병동 : 01 522 50 50, 01 522 24 82<br>\r\n- 응급실(Urgenca) : 01 522 84 08, 01 522 84 09</p><br>\r\n\r\nㅇ 약국 <br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 개점시간 : 월~금 08:00~20:00, 토 08:00~12:00<br>\r\n- 감기, 두통 등에 대한 가벼운 증세를 치료하기 위한 약품은 처방 없이 구입이 가능합니다.<br>\r\n- 야간 및 휴일 영업 약국:주재국에서 약을 구입하려면 의사의 처방전이 있어야 합니다. 약국은 각 구 마다 2-4 곳이 돌아가며 영업하며, 휴일에는 모든 약국마다 출입문 옆에 가장 가까운 야간.휴일 영업 약국의 주소와 전화번호를 표기합니다.</p>"
+  }
+]

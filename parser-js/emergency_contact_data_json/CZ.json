@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "30",
+    "continent_eng_nm": "Europe",
+    "continent_nm": "유럽",
+    "country_eng_nm": "Czech",
+    "country_iso_alp2": "CZ",
+    "country_nm": "체코",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_195&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/188/20220318_160834593.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/188/20220318_160834655.png",
+    "wrt_dt": "2023-11-24",
+    "address": "Slavickova 5, 160 00 Praha 6-Bubenec, Czech Republic",
+    "email": null,
+    "representative_number": "(420) 234-090-411",
+    "emergency_contact": "(420) 725-352-420",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": "158",
+      "fire": "150",
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "[프라하 지역 영어 진료 가능병원]<br>\r\nㅇ Unicare Medical Center(한국어 상담도 가능)<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 주소: Na Dlouhem lanu 11, Praha 6<br>\r\n- 홈페이지: <a href=\"http://www.unicare.cz/\" target=\"_blank\">www.unicare.cz</a><br>\r\n- 전화번호: +420 235-356-553(영어), +420 602-201-040(한국어)</p><br>\r\n\r\nㅇ Nemocnice Na Motol<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 주소: V uvalu 84, Praha 5<br>\r\n- 홈페이지: <a href=\"http://www.fnmotol.cz\" target=\"_blank\">www.fnmotol.cz</a><br>\r\n- 전화번호: +420 224-431-111</p><br>\r\n\r\nㅇ Nemocnice Na Homolce<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 주소: Roentgenova 37/2, 150 00, Praha 5<br>\r\n- 홈페이지: <a href=\"http://www.homolka.cz/\" target=\"_blank\">www.homolka.cz</a><br>\r\n- 전화번호: +420 257-271-111</p><br>\r\n\r\nㅇ Prague Central Military Hospital<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 주소: U Vojenske nemocnice 1200, Praha 6<br>\r\n- 홈페이지: <a href=\"http://www.uvn.cz\" target=\"_blank\">www.uvn.cz</a><br>\r\n- 전화번호: +420 973-208-333</p><br>\r\n\r\nㅇ Canadian Medical Care<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 주소: Evropska 859/115a, 160 00 Praha 6<br>\r\n- 홈페이지: <a href=\"http://www.cmcpraha.com\" target=\"_blank\">www.cmcpraha.com</a><br>\r\n- 전화번호: +420 235-360-133</p><br>\r\n\r\nㅇ Dental Emergencies (American Dentist in Prague)<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 주소: pstrossova 10, 110 00 Praha 1<br>\r\n- 홈페이지: <a href=\"http://www.americandentist.cz\" target=\"_blank\">www.americandentist.cz</a><br>\r\n- 전화번호: +420 773-505-773</p>"
+  }
+]

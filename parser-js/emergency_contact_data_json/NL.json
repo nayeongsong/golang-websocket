@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "30",
+    "continent_eng_nm": "Europe",
+    "continent_nm": "유럽",
+    "country_eng_nm": "Netherlands",
+    "country_iso_alp2": "NL",
+    "country_nm": "네덜란드",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_21&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/33/20220318_164807920.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/33/20220318_164807979.png",
+    "wrt_dt": "2023-11-24",
+    "address": "Verlengde Tolweg 8 2517 JV, Den Haag",
+    "email": "koreanembassynl@mofa.go.kr\" target=\"_blank",
+    "representative_number": "(31) 70-740-0214",
+    "emergency_contact": "(31) 64-264-8412",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 암스테르담<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 병원 : VU medisch centrum<br>\r\n- 전화번호: 020-444-3636(긴급)<br>\r\n- 주소 : De Boelelaan 1117 1081 HV Amsterdam</p><br>\r\n\r\nㅇ 로테르담<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 병원 : Erasmus University Medical Center<br>\r\n- 전화번호 : 010-704-0704<br>\r\n- 주소 : Doctor Molewaterplein 40, 3015 GD, Rotterdam</p><br>\r\n\r\nㅇ 헤이그<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 병원 : Haaglanden Medical Center<br>\r\n- 전화번호 : 088-979-7900<br>\r\n- 주소 : Lijnbaan 32, 2512 VA, Den Haag</p>"
+  }
+]

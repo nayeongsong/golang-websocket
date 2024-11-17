@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "30",
+    "continent_eng_nm": "Europe",
+    "continent_nm": "유럽",
+    "country_eng_nm": "Poland",
+    "country_iso_alp2": "PL",
+    "country_nm": "폴란드",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_246&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/231/20220318_165216491.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/231/20220318_165216551.png",
+    "wrt_dt": "2022-11-29",
+    "address": "ul. Szwolezerow 6, 00-464, Warszawa, Poland",
+    "email": "koremb_waw@mofa.go.kr",
+    "representative_number": "(48) 22-559-2900",
+    "emergency_contact": "(48) 887-46-0600",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": "998",
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "□ 바르샤바<br>\r\n[Centralny Szpital Kliniczny MSWiA]<br>\r\nㅇ 주소 : ul. Wołoska 137<br>\r\nㅇ 전화 : (48) 22-508-2000 <br>\r\nㅇ 웹사이트 : <a href=\"http://www.cskmswia.pl/\" target=\"_blank\">www.cskmswia.pl</a><br><br>\r\n\r\n[Prywatne Centrum Medyczne DAMIANA]<br>\r\nㅇ 주소 : ul. Wałbrzyska 46<br>\r\nㅇ 전화 : (48) 22-566-2222<br>\r\nㅇ 웹사이트 : <a href=\"http://www.damian.pl/\" target=\"_blank\">www.damian.pl</a><br><br>\r\n\r\n[Medicover w Warszawie]<br>\r\nㅇ 주소 : Al. Rzeczypospolitej 5<br>\r\nㅇ 전화 : (48) 500-900-500<br>\r\nㅇ 웹사이트 : <a href=\"http://medicover.pl\" target=\"_blank\">medicover.pl</a><br><br>\r\n\r\n□ 크라쿠프<br>\r\n[Szpital Miejski Specjalistyczny im.G.Narutowicza w Krakowie]<br>\r\nㅇ 주소 : ul. Pradnicka 35/37<br>\r\nㅇ 전화 : 012-416-2266, 012-633-0100 <br>\r\nㅇ 웹사이트 : <a href=\"http://narutowicz.krakow.pl/\" target=\"_blank\">narutowicz.krakow.pl</a><br><br>\r\n\r\n[Medicover w Krakowie]<br>\r\nㅇ 주소 : ul. Bora Komorowskiego 25B, 31-476 Kraków<br>\r\nㅇ 전화 : (48) 500-900-500 Hot Line Medicover 24h - 500 900 999<br>\r\nㅇ 웹사이트 : <a href=\"http://medicover.pl/\" target=\"_blank\">medicover.pl</a><br><br>\r\n\r\n□ 브로츠와프<br>\r\n[Medicover we Wrocławiu]<br>\r\nㅇ 주소 : ul. Mydlana 2A, 51-502 Wrocław<br>\r\nㅇ 전화 : (48) 500-900-500 Hot Line Medicover 24h - 500 900 999<br>\r\nㅇ 웹사이트 : <a href=\"http://medicover.pl\" target=\"_blank\">medicover.pl </a>&nbsp;"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "30",
+    "continent_eng_nm": "Europe",
+    "continent_nm": "유럽",
+    "country_eng_nm": "Sweden",
+    "country_iso_alp2": "SE",
+    "country_nm": "스웨덴",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_126&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/126/20220318_165639907.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/126/20220318_165639963.png",
+    "wrt_dt": "2023-11-24",
+    "address": "Laboratoriegatan 10, 102 53 Stockholm, Sweden",
+    "email": "koremb.sweden@mofa.go.kr",
+    "representative_number": "(46) 8-5458-9400",
+    "emergency_contact": "(46) 73-564-1648",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 단데뤼드 병원(Danderyd)<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- <a href=\"http://www.ds.se/\" target=\"_blank\">www.ds.se</a><br>\r\n- 전화번호 : +46 (08) 655-5000</p><br>\r\n\r\nㅇ 카롤린스카 대학병원 <br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- <a href=\"http://www.karolinska.se/\" target=\"_blank\">www.karolinska.se</a><br>\r\n- Huddinge : +46 (08) 5858-0000<br>\r\n- Solna : + 46 (08) 5177 -0000</p><br>\r\n\r\nㅇ 세인트 여란병원<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- <a href=\"http://www. stgoran.se\" target=\"_blank\">www. stgoran.se</a><br>\r\n- +46 (08) 5870-1000</p>"
+  }
+]

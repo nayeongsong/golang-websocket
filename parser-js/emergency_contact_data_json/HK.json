@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "10",
+    "continent_eng_nm": "Asia",
+    "continent_nm": "아주",
+    "country_eng_nm": "Hongkong",
+    "country_iso_alp2": "HK",
+    "country_nm": "홍콩",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=FILE_000000000006687&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/250/20220224_233512982.gif",
+    "map_download_url": null,
+    "wrt_dt": "2024-02-08",
+    "address": "5F, Far East Finance Centre, 16 Harcourt Road, Admiralty, Hong Kong",
+    "email": null,
+    "representative_number": "(852) 2529-4141",
+    "emergency_contact": "(852) 9731-0092",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": null
+  }
+]

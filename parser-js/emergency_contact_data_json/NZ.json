@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "10",
+    "continent_eng_nm": "Asia",
+    "continent_nm": "아주",
+    "country_eng_nm": "New Zealand",
+    "country_iso_alp2": "NZ",
+    "country_nm": "뉴질랜드",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_25&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/38/20220318_165002661.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/38/20220318_165002722.png",
+    "wrt_dt": "2023-11-24",
+    "address": "11th Floor Harbour Tower, 2 Hunter Street, Wellington 6011 New Zealand",
+    "email": "info-nz@mofa.go.kr",
+    "representative_number": "(64) 4-473-9073",
+    "emergency_contact": "(64) 21-0269-3271",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 웰링턴 <br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- After hours medical centre :<br>\r\n&nbsp; &nbsp;* Wellington Hospital +64-4-385-5999<br>&nbsp; &nbsp;* lower hutt: +64-4-567-5345<br>\r\n- 24시간 응급실(AMC) : +64-4-3844944</p>\r\nㅇ 크라이스트처치 Christchurch Hospital : +64-3- 364-0640<br>\r\nㅇ 넬슨 Nelson Hospital : +64-3-546-1800<br>\r\nㅇ 더니든 Mercy Hospital : +64-3-464-0107<br>\r\nㅇ 오클랜드 <br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 시티병원: +64-9-307-2800<br>\r\n- 스타십 어린이병원 : +64-9-307-8900<br>\r\n- 응급병원(Ascot 24 Hours) : +64-9-520-9555 (옵션 0번을 선택)</p>\r\n<p style=\"margin-left: 25px; margin-right: 25px;\">&nbsp;* 뉴질랜드 현지에서 로밍폰이 아닌 현지 전화를 사용하실 경우에는 국가번호 64를 제외하고 사용하세요.</p>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">예) 대사관으로 전화할 때 :<br>\r\n- 로밍폰 :+64-4-473-9073<br>\r\n- 현지 전화 : 04-473-9073</p>"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "20",
+    "continent_eng_nm": "America",
+    "continent_nm": "미주",
+    "country_eng_nm": "Haiti",
+    "country_iso_alp2": "HT",
+    "country_nm": "아이티",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_324&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/139/20220318_162444377.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/139/20220318_162444433.png",
+    "wrt_dt": "2024-08-01",
+    "address": "Avenida Enriquillo No.75, Urbanización Real, Santo Domingo, República Dominicana",
+    "email": null,
+    "representative_number": null,
+    "emergency_contact": null,
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "[주요 의료 시설]<br>\r\nㅇ 아이티는 2010년 1월 강진 발생으로 인해 본래 취약하던 보건의료시설마져 파손되어 극심한 의료인프라 부족현상을 겪고 있습니다. 특히 2010년 10월 콜레라 창궐 이후 대다수 의료인력 및 기관이 콜레라 확산방지에 급급하고 있는 실정으로, 기본적인 의료서비스를 받기조차 어려운 실정입니다.<br>"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "10",
+    "continent_eng_nm": "Asia",
+    "continent_nm": "아주",
+    "country_eng_nm": "Maldives",
+    "country_iso_alp2": "MV",
+    "country_nm": "몰디브",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_309&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/78/20241017_093250875.jpg",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/78/20220318_164502090.png",
+    "wrt_dt": "2024-06-28",
+    "address": "No. 98, Dharmapala Mawatha, Colombo 7, Sri Lanka",
+    "email": null,
+    "representative_number": "(94) 11-269-9036",
+    "emergency_contact": "(94) 77-332-5676",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": null
+  }
+]

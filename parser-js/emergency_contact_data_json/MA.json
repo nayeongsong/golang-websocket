@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "40",
+    "continent_eng_nm": "Middle East",
+    "continent_nm": "중동",
+    "country_eng_nm": "Morocco",
+    "country_iso_alp2": "MA",
+    "country_nm": "모로코",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_60&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/71/20241010_171035728.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/71/20220318_163711211.png",
+    "wrt_dt": "2024-06-28",
+    "address": "41 Avenue Mehdi Ben Barka, Souissi, Rabat - Maroc",
+    "email": null,
+    "representative_number": "+(212) (0)5-3775-1767",
+    "emergency_contact": "+(212) (0)6-6277-2408",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 수도인 라바트에는 UN 병원, Sheikh Zayed, Clinique Agdal 등 비교적 시설이 잘 갖추어진 병원이 있으며 외국(특히 프랑스)에서 수련한 전문의의 진찰을 받는데도 큰 어려움은 없음. 한국보다 의료 수준이 낙후되어 개인이 필요한 치료 및 건강진단은 가급적 국내에서 미리 받아 두는 것이 좋음<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 특히 치과의 경우 국내에서 사전에 진료를 받고 오는 것이 바람직함</p>\r\nㅇ 개인 지병 또는 전문의의 진료 또는 처방이 필요한 경우 사전에 국내 의료진의 진찰을 받은 후, 필요한 약품이나 의료 기록을 가지고 오는 것이 바람직함<br>\r\nㅇ 간단한 약품 구입은 의사의 처방전이 필요 없으나 중요한 약품일 경우에는 처방전 필요하며 약국은 여러 곳에 분포되어 있으며 토, 일요일 및 공휴일은 지역별로 지정된 약국에서만 약품 구입 가능<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 대부분의 약들이 수입품으로 한국보다는 약 값이 비싸므로 여행 전에 간단한 상비약품은 미리 준비해 놓는 것이 좋음</p><br>\r\n\r\n[라바트(Rabat) 이븐시나(ibn sina) 공립 병원]<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Tel: 05 37 67 64 64/ 0537674450 Fax: 05 37 77 58 56 </p><br>\r\n\r\nㅇ 카사블랑카(Casablanca) 이븐 로쉬드(ibn rochd) 공립 병원<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Tel: 0522 22 41 09</p><br>\r\n\r\nㅇ 카사블랑카(Casablanca) 모하메드 5세(Mohamed V) 공립병원<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Tel: 0522 34 03 76</p><br>\r\n\r\nㅇ 페즈(Fes) 공립 병원<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Tel: 0535619052 / 0535613500 Fax: 0535619053</p><br>\r\n\r\nㅇ 아가딜(Agadir) 하산 2세 (hassan 2) 공립 병원<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Tel: 05 28 84 14 77 Fax:05 28 84 13 59 </p><br>\r\n\r\nㅇ 마라케시(Marrakech) 모하메드 4세(Mohamed VI) 공립 병원<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Tel: 05 24 300 700 Fax: 05 24 300 631</p><br>\r\n\r\nㅇ 탕헤르(Tanger) 모하메드 5세(Mohamed V) 공립 병원<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Tel: 05 39 93 08 56</p>"
+  }
+]

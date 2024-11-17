@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "50",
+    "continent_eng_nm": "Africa",
+    "continent_nm": "아프리카",
+    "country_eng_nm": "Namibia",
+    "country_iso_alp2": "NA",
+    "country_nm": "나미비아",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_15&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/28/20220318_164644084.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/28/20220318_164644138.png",
+    "wrt_dt": "2023-11-24",
+    "address": "Condominio Zenith, Torre 1, 3° Andar, Via AL 16, Talatona, Luanda, Angola",
+    "email": null,
+    "representative_number": "(244) 222-006-067",
+    "emergency_contact": "(244) 938-880-573",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 주요 병원(병실 200석 이상)<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 빈툭(Windhoek) 지역 : 빈툭 중앙병원(Windhoek Central), 빈툭 카투투라병원(Windhoek Katutura), 로버트무가베 (Robert Mugabe) 병원, 돈커후크(Donkerhoek) 병원<br>\r\n- 카티마물리로(Katima Mulilo) 지역 : 카티마물리로병원, 바투바자(Batubaja) 병원<br>\r\n- 난쿤두(Nankundu) 지역 : 카루하(Gcaruha) 병원<br>\r\n- 룬두(Rundu) 지역 : 룬두병원, 콰징가(Gcwatjinga) 병원<br>\r\n- 엔젤라(Engela) 지역 : 엔젤라병원, 에둔자(Edundja) 병원<br>\r\n- 오시쿠쿠(Oshikuku) 지역 : 오시쿠쿠병원, 오공고(Ogongo) 병원<br>\r\n- 오샤카티(Oshakati) 지역 : 오샤카티병원, 옴푼자(Ompundja) 병원<br>\r\n- 오난조퀴(Onandjokwe) 지역 : 오난조퀴병원, 은다모나(Ndamona) 병원</p>"
+  }
+]

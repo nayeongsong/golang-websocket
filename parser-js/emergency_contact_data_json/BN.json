@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "10",
+    "continent_eng_nm": "Asia",
+    "continent_nm": "아주",
+    "country_eng_nm": "Brunei",
+    "country_iso_alp2": "BN",
+    "country_nm": "브루나이",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_105&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/106/20241007_145240747.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/106/20220318_155818281.png",
+    "wrt_dt": "2023-11-24",
+    "address": "Lot 24160, Simpang 336, Diplomatic Enclave, Jalan Kebangsaan, Kampong Kianggeh, Bandar Seri Begawan, Brunei Darussalam, BS8111",
+    "email": null,
+    "representative_number": "+673-233-0248, 0249",
+    "emergency_contact": null,
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": null
+  }
+]

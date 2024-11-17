@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "30",
+    "continent_eng_nm": "Europe",
+    "continent_nm": "유럽",
+    "country_eng_nm": "Ukraine",
+    "country_iso_alp2": "UA",
+    "country_nm": "우크라이나",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_169&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/168/20220729_092922428.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/168/20220729_092922491.png",
+    "wrt_dt": "2024-08-01",
+    "address": "12, Striletska St., 01901, Kyiv, Ukraine",
+    "email": null,
+    "representative_number": "(380) 44-246-3759 ~61",
+    "emergency_contact": "(380) 95-119-0404",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": "102",
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "[의료체계]<br>\r\nㅇ 키이우 시내에는 외국계 병원이 있고 시설이 잘 구비되어 있으나 가격이 비싼 편입니다.<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 외국계 병원에서 영어로 의사소통은 쉽지 않습니다.</p>\r\nㅇ 진료를 받고자 하는 환자는 먼저 예약(전화예약 가능)을 하는 것이 중요합니다.<br>\r\nㅇ 일반 전화기로 103로 전화하여 구급차를 부를 수 있나 일반적으로 도착하는데 시간이 오래 걸립니다.<br>\r\nㅇ 약국에서 약품 구입시 처방전이 필요하나, 일반적인 감기약, 진통제, 소화제, 알러지약 등은 처방전 없이 구입 가능합니다.<br><br>\r\n\r\n[주요 의료 시설]<br>\r\nㅇ 키이우 시내 외국계 종합 병원<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 보리스 병원 (380) 44-238-0000<br>\r\n- 메디콤 병원 : (380) 44-432-8888<br>\r\n- 도부로붓 병원 : (380) 44-495-2888<br>\r\n- 아메리칸 메디컬 센터 : (380) 44-490-7600</p>"
+  }
+]

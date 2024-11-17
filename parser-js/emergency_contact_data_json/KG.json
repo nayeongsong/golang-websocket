@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "30",
+    "continent_eng_nm": "Europe",
+    "continent_nm": "유럽",
+    "country_eng_nm": "Kyrgyz Republic",
+    "country_iso_alp2": "KG",
+    "country_nm": "키르기즈공화국",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_301&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/209/20220318_163048531.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/209/20220318_163048587.png",
+    "wrt_dt": "2023-11-24",
+    "address": "비슈케크시 아훈바예바 거리 35번지(유느살리예바 거리와 교차로 사거리)",
+    "email": null,
+    "representative_number": "(996) 312-579-771",
+    "emergency_contact": "(996) 500-579-773",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 키르기즈에서는 응급환자가 발생할 경우 국가 무료 엠뷸런스 103번으로 전화를 걸어 도움을 요청할 수 있으나, 때때로 103번은 연락 후 도착까지 상당시간이 소요되는 경우가 많습니다.<br><br>\r\nㅇ 응급환자 발생시 사설 유료 엠뷸런스(국번없이 139번, 151번)로 전화를 걸어 도움을 요청하시는 것도 좋습니다.<br><br>\r\nㅇ 외국인이 주로 이용하는 개인병원은 아래와 같습니다.(*동 정보는 참고용으로 제공되는 것이며, 공관과는 어떤 연관도 없다는 점을 알려드립니다.)<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- NEO MED(검진센터) : (+996)-312-90-60-90</p>\r\n<p style=\"margin-left: 25px; margin-right: 25px;\">* (주소 : 오로조베코바 46)</p><br>\r\n\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- ELDIK(가정의학) : (+996)-312-65-20-79</p>\r\n<p style=\"margin-left: 25px; margin-right: 25px;\">* (주소 : 말라다야 그바르지야 1) </p><br>\r\n\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- MALISH(소아과) : (+996)-312-30-18-18</p>\r\n<p style=\"margin-left: 25px; margin-right: 25px;\">* (주소 : 레니나 67)</p><br>\r\n\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- KAINOS DENTAL CLINIC : (+996)-312-31-18-59</p>\r\n<p style=\"margin-left: 25px; margin-right: 25px;\">* (주소 : 쓰듸꼬바 178)</p><br>\r\n\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- KAIROS DENTAL CLINIC : (+996)-312-61-23-02</p>\r\n<p style=\"margin-left: 25px; margin-right: 25px;\">* (주소 : 루스꿀로바 10)</p>"
+  }
+]

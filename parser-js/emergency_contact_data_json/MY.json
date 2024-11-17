@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "10",
+    "continent_eng_nm": "Asia",
+    "continent_nm": "아주",
+    "country_eng_nm": "Malaysia",
+    "country_iso_alp2": "MY",
+    "country_nm": "말레이시아",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_56&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/66/20241007_150435112.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/66/20220318_164600106.png",
+    "wrt_dt": "2022-08-22",
+    "address": "No. 9 &amp; 11, Jalan Nipah, Off Jalan Ampang, 55000 Kuala Lumpur, Malaysia",
+    "email": "korem-my@mofa.go.kr",
+    "representative_number": "(60) 3-4251-2336",
+    "emergency_contact": "(60) 17-623-8343",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "□ 의료기관(응급)<br>\r\nㅇ 우리나라 개업의 형태의 클리닉(Clinic)이 있고, 정부가 운영하는 국립병원 및 사설 종합병원이 있습니다. 대부분의 병원에서 영어 소통이 어느정도 가능합니다.<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Kuala Lumpur Hospital(KL, 국립) : (60) 3-2615-6705<br>\r\n- UM Hospital(KL, 국립) : (60) 3-7949-2151<br>\r\n- Gleneagles KL(KL, 사립) : (60) 3-4141-3000<br>\r\n- Ampang Puteri(KL, 사립) : (60) 3-4270-7060<br>\r\n- Putrajaya Hospital(푸트라자야, 국립): (60) 3-8888-0137<br>\r\n- Sultan Ismail Hospital(조호, 국립) : (60) 7-356-5000<br>\r\n- Gleneagles Hospital Medini Johor(조호, 사립) : (60) 7-560-1000<br>\r\n- Penang General Hospital(페낭, 국립) : (60) 4-222-5333<br>\r\n- Penang Adventist Hospital(페낭, 사립) : (60) 4-222-7200<br>\r\n- Queen Elizabeth Hospital(사바, 국립) : (60) 88-517-555<br>\r\n- Gleneagles Hospital KK(사바, 사립) : (60) 88-518-975<br>\r\n- Sarawak General Hospital(사라왁, 국립) : (60) 82-276-666<br>\r\n- KPJ Kuching Specialist Hospital(사라왁, 사립) : (60) 82-365-777</p>\r\nㅇ 정부에서 운영하는 국립병원의 경우 비교적 비용이 저렴하나, 사설 종합병원의 경우 의료 서비스가 국립병원에 비해 양호한편이나 비용이 훨씬 비싼 편입니다. 우리나라와 마찬가지로 전문의약품의 경우 의사의 처방전이 필요합니다.<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 999로 신고하여 구급차 이용 시 국공립병원으로만 후송 가능하므로 응급상황에서 사설 병원 이용 희망 시 해당 의료기관에 전화하여 구급차를 요청해야 하므로 생활근거지 인근에 있는 대형병원의 연락처를 사전에 파악해 둘 필요가 있습니다.</p>"
+  }
+]

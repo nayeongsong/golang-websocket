@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "10",
+    "continent_eng_nm": "Asia",
+    "continent_nm": "아주",
+    "country_eng_nm": "Afghanistan",
+    "country_iso_alp2": "AF",
+    "country_nm": "아프가니스탄",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_284&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/142/20220318_154306906.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/142/20220318_154306963.png",
+    "wrt_dt": "2024-08-01",
+    "address": null,
+    "email": null,
+    "representative_number": "(974) 4463-9555",
+    "emergency_contact": "(974) 6673-4250",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ Wazir Akbar Khan<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Wazir Akbar Khan area, district 10<br>\r\n- 020 2301 360</p><br>\r\n\r\nㅇ ISAF German Hospital<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- ISAF Camp Warehouse, district 9, Kabul-Jalalabad Road<br>\r\n- 0797 191 348</p><br>\r\n\r\nㅇ American Medical Center<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 15th Street, Lane 4, Wazir Akbar Khan, Kabul<br>\r\n- 15th Street, Lane 4, Wazir Akbar Khan, Kabul</p><br>\r\n\r\nㅇ French Medical Institute for Children<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- Behind Kabul Medical University, Aliabad, Kabul, Afghanistan<br>\r\n- 020 2500 200</p>"
+  }
+]

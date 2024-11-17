@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "10",
+    "continent_eng_nm": "Asia",
+    "continent_nm": "아주",
+    "country_eng_nm": "Indonesia",
+    "country_iso_alp2": "ID",
+    "country_nm": "인도네시아",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_181&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/175/20241007_150612520.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/175/20220318_162536777.png",
+    "wrt_dt": "2022-08-22",
+    "address": "Jalan Jenderal Gatot Subroto Kav. 57 Jakarta 12950, Indonesia",
+    "email": null,
+    "representative_number": "(62) 21-2967-2580",
+    "emergency_contact": "(62) 811-852-446",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": null
+  }
+]

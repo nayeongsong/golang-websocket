@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "20",
+    "continent_eng_nm": "America",
+    "continent_nm": "미주",
+    "country_eng_nm": "Mexico",
+    "country_iso_alp2": "MX",
+    "country_nm": "멕시코",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_58&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/69/20220318_164538562.gif",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/69/20220318_164538614.png",
+    "wrt_dt": "2024-09-13",
+    "address": "Lopez Diaz de Armendariz 110, Col. Lomas Virreyes, Alc. Miguel Hidalgo, CDMX",
+    "email": null,
+    "representative_number": "(52) 55-5202-9866",
+    "emergency_contact": "(52) 55-8581-2808",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": null,
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": null
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "continent_cd": "20",
+    "continent_eng_nm": "America",
+    "continent_nm": "미주",
+    "country_eng_nm": "Peru",
+    "country_iso_alp2": "PE",
+    "country_nm": "페루",
+    "dang_map_download_url": "https://www.0404.go.kr/imgsrc.mofa?atch_file_id=COUNTRY_243&file_sn=3",
+    "flag_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/flags/229/20241007_161726639.png",
+    "map_download_url": "https://opendata.mofa.go.kr:8444/fileDownload/images/country_images/maps/229/20220318_165102191.png",
+    "wrt_dt": "2024-02-27",
+    "address": "Calle Guillermo Marconi 165, San Isidro, Lima, Peru",
+    "email": null,
+    "representative_number": "(51) 1-632-5000",
+    "emergency_contact": "(51) 998-787-454",
+    "jurisdiction": null,
+    "emergency_services": {
+      "police": "105",
+      "fire": null,
+      "emergency": null,
+      "traffic_police": null
+    },
+    "medical_contact": "ㅇ 리마 시내 주요 종합병원, 응급실<br>\r\n[Clínica Ricardo Palma (리카르도 팔마 병원)]\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-1) 224-2224, 224-2226 , (응급 Anexo) 1228<br>\r\n- 주소 : Av. Javier Prado Este 1066, San Isidro, Lima</p><br>\r\n\r\n[Clínica Anglo Americana (앵글로 아메리카 병원)]<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-1) 616-8900, 616-8902, (응급 Anexo) 1132<br>\r\n- 주소 : Av. Alfredo Salazar 350, San Isidro, Lima</p>\r\n\r\n[Clínica San Felipe (산 펠리페 병원)]\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-1) 219-0000<br>\r\n- 주소 : Av. Gregorio Escobedo 650, Jesús María, Lima</p><br>\r\n\r\n[SANNA Clínica El Golf (사나 클리니카 엘 골프)]<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-1) 635-5000<br>\r\n- 주소 : Av. Aurelio Miro Quesada 1030, San Isidro, Lima</p>\r\n\r\n[SANNA Clínica San Borja (사나 산 보르하 병원)]\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-1) 635-5000<br>\r\n- 주소 : Av. Guardia Civil 337, San Borja, Lima</p><br>\r\n\r\n[Clínica San Pablo (산 파블로 병원)]<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-1) 610-3222, 610-3333<br>\r\n- 주소 : Av. El Polo 789, Urb.El Derby de Monterrico, Surco, Lima</p><br>\r\n\r\nㅇ 페루 지방 주요 병원<br>\r\n[(쿠스코) CIMA Medical Center]\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-8) 425-5550<br>\r\n- 주소 : Av. Pardo 978, Cusco</p><br>\r\n\r\n[(쿠스코) Clínica Peruano Suiza]<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-8) 423-7009<br>\r\n- 주소 : Av. Peru Mz K Lt 3, Rafael Aguilar Paez, Cusco</p>\r\n\r\n[(쿠스코) Clínica San José]\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-8) 424-3367<br>\r\n- 주소 : Av. Los Incas 1414, Cusco</p><br>\r\n\r\n[(트루히요) SANNA Clínica Sánchez Ferrer]<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-4) 460-1050<br>\r\n- 주소 : Calle Los Laurales 436-Urb. California, Víctor Larco Herrea, Trujillo</p>\r\n\r\n[(피우라) SANNA Clínica Bethlehem]\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-7) 362-6100<br>\r\n- 주소 : Calle San Cristobal 267-Urb. El Chipe, Piura</p><br>\r\n\r\n[(아레끼파) Clínica Arequipa]<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-5) 459-9000<br>\r\n- 주소 : Av. Ejercito 505, Arequipa</p><br>\r\n\r\n[(아레끼파) SANNA Clínica del Sur]<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- 전화 : (51-5) 460-4060<br>\r\n- 주소 : Bolognesi 134, Yanahuara, Arequipa</p><br>\r\n\r\nㅇ 약국(24시간)<br>\r\n<p style=\"margin-left: 15px; margin-right: 15px;\">- INKAFARMA : 314-2020, <a href=\"http://www.inkafarma.com.pe\" target=\"_blank\">www.inkafarma.com.pe</a><br>\r\n- Mifarma: 213-0777, <a href=\"http://www.mifarma.com.pe\" target=\"_blank\">www.mifarma.com.pe</a><br>\r\n- Boticas y Salud : 344-4343, <a href=\"http://www.boticasysalud.com\" target=\"_blank\">www.boticasysalud.com</a></p>"
+  }
+]
