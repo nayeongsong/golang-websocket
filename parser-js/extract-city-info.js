@@ -2,8 +2,8 @@ const path = require("path")
 const fs = require("fs")
 const parser = require("node-html-parser")
 
-const dataDir = path.join(__dirname, "data")
-const outputDir = path.join(__dirname, "json_data")
+const htmlDataDir = path.join(__dirname, "city_data_html")
+const outputDir = path.join(__dirname, "city_data_output")
 
 // Ensure the output directory exists
 if (!fs.existsSync(outputDir)) {
@@ -166,11 +166,11 @@ function processCountryHtml(html) {
 
 async function main() {
   const result = {}
-  const files = fs.readdirSync(dataDir)
+  const files = fs.readdirSync(htmlDataDir)
 
   const filePromises = files.map((file) => {
     return new Promise((resolve, reject) => {
-      const filePath = path.join(dataDir, file)
+      const filePath = path.join(htmlDataDir, file)
       fs.readFile(filePath, "utf8", (err, html) => {
         if (err) {
           console.error("Error reading HTML file:", err)
