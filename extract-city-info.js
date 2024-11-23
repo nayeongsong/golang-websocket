@@ -282,6 +282,10 @@ const extractCityTraits = (cityContent) => {
       }
     }
 
+    if (key == "country") {
+      city_traits["country"] = valueString
+    }
+
     if (key === "internet") {
       const internetPattern = /([\d.]+)Mbps/
       const internetMatch = valueString.match(internetPattern)
