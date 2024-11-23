@@ -61,7 +61,9 @@ function processCountryHtml(html) {
     if (value.endsWith(".")) {
       value = value.slice(0, -1)
     }
-    acc[key] = value
+
+    acc[key] = String(value)
+
     return acc
   }, {})
 
@@ -204,7 +206,7 @@ const transformAttributesToScores = (cityContent) => {
 
       const score = scoreMapping[currentValue]
       if (score !== undefined) {
-        scores[attr] = score
+        scores[attr] = String(score)
 
         // Remove the original attribute
         delete cityContent.details[attr]
@@ -232,6 +234,7 @@ const moveScoresToTraits = (cityContent) => {
     "coworking_cost",
     "intl_school_cost_yearly",
     "taxi_cost_per_km",
+    "mobile_cost_per_minute",
   ]
 
   const city_traits = {}
@@ -247,7 +250,7 @@ const moveScoresToTraits = (cityContent) => {
 
       const newAttributeName = `${attr}_usd`
       if (currentValue !== undefined) {
-        city_traits[newAttributeName] = currentValue
+        city_traits[newAttributeName] = String(currentValue)
 
         // Remove the original attribute
         delete cityContent.scores[attr]
@@ -275,7 +278,7 @@ const extractCityTraits = (cityContent) => {
       const costValue = parseFloat(costMatch[1].replace(/,/g, ""))
       if (costValue) {
         const newKey = `${key}_usd`
-        city_traits[newKey] = costValue
+        city_traits[newKey] = String(costValue)
       }
     }
 
@@ -286,7 +289,7 @@ const extractCityTraits = (cityContent) => {
         const internetValue = parseFloat(internetMatch[1])
         cityContent.details.internet.value = internetValue
         if (internetValue) {
-          city_traits["internet_speed_mbps"] = internetValue
+          city_traits["internet_speed_mbps"] = String(internetValue)
         }
       }
     }
@@ -300,7 +303,7 @@ const extractCityTraits = (cityContent) => {
       const tripLengthMatch = valueString.match(tripLengthPattern)
       if (tripLengthMatch && tripLengthMatch[1]) {
         const tripLengthValue = parseFloat(tripLengthMatch[1])
-        city_traits["average_trip_length_days"] = tripLengthValue
+        city_traits["average_trip_length_days"] = String(tripLengthValue)
       }
     }
 
@@ -309,9 +312,9 @@ const extractCityTraits = (cityContent) => {
       const tippingMatch = valueString.match(tippingPattern)
       if (tippingMatch && tippingMatch[1]) {
         const tippingValue = parseFloat(tippingMatch[1], 10)
-        city_traits["tipping"] = tippingValue
+        city_traits["tipping"] = String(tippingValue)
       } else if (valueString.toLowerCase() === "no") {
-        city_traits["tipping"] = 0
+        city_traits["tipping"] = "0"
       }
     }
 
@@ -320,7 +323,7 @@ const extractCityTraits = (cityContent) => {
       const returnRateMatch = valueString.match(returnRatePattern)
       if (returnRateMatch && returnRateMatch[1]) {
         const returnRateValue = parseInt(returnRateMatch[1], 10)
-        city_traits.return_rate_percentage = returnRateValue
+        city_traits.return_rate_percentage = String(returnRateValue)
       }
     }
 
@@ -329,7 +332,7 @@ const extractCityTraits = (cityContent) => {
       const gdpMatch = valueString.match(gdpPattern)
       if (gdpMatch && gdpMatch[1]) {
         const gdpValue = parseFloat(gdpMatch[1].replace(/,/g, ""))
-        city_traits.gdp_per_capita_usd = gdpValue
+        city_traits.gdp_per_capita_usd = String(gdpValue)
       }
     }
   }
