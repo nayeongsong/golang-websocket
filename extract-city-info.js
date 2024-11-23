@@ -1,9 +1,13 @@
 const path = require("path")
 const fs = require("fs")
 const parser = require("node-html-parser")
+const countryToISO = require("country-to-iso")
 
 const htmlDataDir = path.join(__dirname, "city_data_html")
 const outputDir = path.join(__dirname, "city_data_output")
+
+const CITY_OUTPUT_NAME = "city_output.json"
+const COUNTRY_OUTPUT_NAME = "country_output.json"
 
 // Ensure the output directory exists
 if (!fs.existsSync(outputDir)) {
@@ -53,7 +57,10 @@ function processCountryHtml(html) {
   const scoreElements = root.querySelectorAll("tr[data-key][data-value]")
   const scores = scoreElements.reduce((acc, el) => {
     const key = el.getAttribute("data-key")
-    const value = el.getAttribute("data-value")
+    let value = el.getAttribute("data-value")
+    if (value.endsWith(".")) {
+      value = value.slice(0, -1)
+    }
     acc[key] = value
     return acc
   }, {})
@@ -164,7 +171,7 @@ function processCountryHtml(html) {
   }
 }
 
-const transformAttributesToScores = (countryContent) => {
+const transformAttributesToScores = (cityContent) => {
   const scoreMapping = {
     "🧨 Conflict / political instability": 0,
     "very bad": 1,
@@ -191,16 +198,16 @@ const transformAttributesToScores = (countryContent) => {
     try {
       const currentValue = valuePath
         .split(".")
-        .reduce((obj, key) => obj?.[key], countryContent)
+        .reduce((obj, key) => obj?.[key], cityContent)
         ?.trim()
         ?.toLowerCase()
 
       const score = scoreMapping[currentValue]
       if (score !== undefined) {
-        scores[attr] = String(score)
+        scores[attr] = score
 
         // Remove the original attribute
-        delete countryContent.details[attr]
+        delete cityContent.details[attr]
       }
     } catch (error) {
       console.error(`Error processing ${attr} for ${valuePath}:`, error)
@@ -208,12 +215,55 @@ const transformAttributesToScores = (countryContent) => {
     }
   }
 
-  countryContent.scores = { ...countryContent.scores, ...scores }
+  cityContent.scores = { ...cityContent.scores, ...scores }
 }
 
-const extractCityTraits = (countryContent) => {
+const moveScoresToTraits = (cityContent) => {
+  // All the attributes that we want to map to scores
+  const attributes = [
+    "tax_on_50k",
+    "tax_on_100k",
+    "tax_on_250k",
+    "beer_in_cafe",
+    "coffee_in_cafe",
+    "average_meal_price",
+    "non_alcoholic_drink_in_cafe",
+    "apartment_cost",
+    "coworking_cost",
+    "intl_school_cost_yearly",
+    "taxi_cost_per_km",
+  ]
+
   const city_traits = {}
-  const details = countryContent?.details
+
+  for (const attr of attributes) {
+    const valuePath = `scores.${attr}`
+    try {
+      const currentValue = valuePath
+        .split(".")
+        .reduce((obj, key) => obj?.[key], cityContent)
+        ?.trim()
+        ?.toLowerCase()
+
+      const newAttributeName = `${attr}_usd`
+      if (currentValue !== undefined) {
+        city_traits[newAttributeName] = currentValue
+
+        // Remove the original attribute
+        delete cityContent.scores[attr]
+      }
+    } catch (error) {
+      console.error(`Error processing ${attr} for ${valuePath}:`, error)
+      continue
+    }
+  }
+
+  cityContent.city_traits = { ...cityContent.city_traits, ...city_traits }
+}
+
+const extractCityTraits = (cityContent) => {
+  const city_traits = {}
+  const details = cityContent?.details
 
   for (const key of Object.keys(details)) {
     const costPattern = /\$\s?([\d,]+)/
@@ -234,7 +284,7 @@ const extractCityTraits = (countryContent) => {
       const internetMatch = valueString.match(internetPattern)
       if (internetMatch && internetMatch[1]) {
         const internetValue = parseFloat(internetMatch[1])
-        countryContent.details.internet.value = internetValue
+        cityContent.details.internet.value = internetValue
         if (internetValue) {
           city_traits["internet_speed_mbps"] = internetValue
         }
@@ -284,30 +334,40 @@ const extractCityTraits = (countryContent) => {
     }
   }
 
-  countryContent.city_traits = city_traits
+  cityContent.city_traits = city_traits
 }
 
-const extractCountryTraits = (countryContent) => {
-  const country_traits = {}
-  const details = countryContent?.details
+const extractCountryTraits = (cityContent, countryOutput) => {
+  const details = cityContent?.details
+  const country = details?.country.value
+
+  const countryISOCode = countryToISO.countryToAlpha2(country)
 
   for (const key of Object.keys(details)) {
     if (
       key === "online_electronics_shop" ||
       key === "apartment_listings" ||
-      key === "best_short_haul_airline" ||
-      key === "best_intnl_airline" ||
-      key === "best_hospital"
+      key === "best_short_haul_air_carrier" ||
+      key === "best_int_l_air_carrier" ||
+      key === "best_hospital" ||
+      key == "best_taxi_app"
     ) {
-      country_traits[key] = details[key]
+      if (!countryOutput[countryISOCode]) {
+        countryOutput[countryISOCode] = {}
+      }
+      countryOutput[countryISOCode][key] = details[key]
     }
   }
+}
 
-  countryContent.country_traits = country_traits
+const deleteUnusedFields = (cityContent) => {
+  delete cityContent.details
+  delete cityContent.pros_cons
 }
 
 async function main() {
   const result = {}
+  const countryTraitsResult = {}
   const files = fs.readdirSync(htmlDataDir)
 
   const filePromises = files.map((file) => {
@@ -321,11 +381,15 @@ async function main() {
         }
 
         const countryName = file.replace("_page.html", "")
-        let countryData = processCountryHtml(html)
-        transformAttributesToScores(countryData)
-        extractCityTraits(countryData)
-        extractCountryTraits(countryData)
-        result[countryName] = countryData
+        let cityData = processCountryHtml(html)
+        transformAttributesToScores(cityData)
+        extractCityTraits(cityData)
+        moveScoresToTraits(cityData)
+        extractCountryTraits(cityData, countryTraitsResult)
+
+        // remove unused fields
+        deleteUnusedFields(cityData)
+        result[countryName] = cityData
         resolve()
       })
     })
@@ -334,17 +398,31 @@ async function main() {
   await Promise.all(filePromises)
 
   // Save the resulting JSON to a file
-  const jsonPath = path.join(outputDir, "output.json")
+  const cityJsonPath = path.join(outputDir, CITY_OUTPUT_NAME)
   fs.writeFile(
-    jsonPath,
+    cityJsonPath,
     JSON.stringify(result, null, 2),
     "utf8",
     (writeErr) => {
       if (writeErr) {
-        console.error("Error writing JSON file:", writeErr)
+        console.error("Error writing city JSON file:", writeErr)
         return
       }
-      console.log("Data has been written to output.json")
+      console.log(`Data has been written to ${CITY_OUTPUT_NAME}`)
+    }
+  )
+
+  const countryJsonPath = path.join(outputDir, COUNTRY_OUTPUT_NAME)
+  fs.writeFile(
+    countryJsonPath,
+    JSON.stringify(countryTraitsResult, null, 2),
+    "utf8",
+    (writeErr) => {
+      if (writeErr) {
+        console.error("Error writing country JSON file:", writeErr)
+        return
+      }
+      console.log(`Country data has been written to ${COUNTRY_OUTPUT_NAME}`)
     }
   )
 }
