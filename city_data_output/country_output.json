@@ -1,30 +1,26 @@
 {
-  "DE": {
+  "DK": {
     "best_taxi_app": {
-      "value": "Uber",
-      "image_url": "https://logo.clearbit.com/http://uber.com?s=512",
-      "url": "http://uber.com/",
-      "logo_url": "https://logo.clearbit.com/http://uber.com?s=512"
+      "value": "Moove",
+      "image_url": "https://logo.clearbit.com/http://moove.taxi?s=512",
+      "url": "http://moove.taxi/",
+      "logo_url": "https://logo.clearbit.com/http://moove.taxi?s=512"
     },
     "online_electronics_shop": {
-      "value": "Amazon",
-      "url": "https://amazon.de/"
+      "value": "Power",
+      "url": "https://power.dk/"
     },
     "best_short_haul_air_carrier": {
-      "value": "EasyJet",
-      "url": "http://www.easyjet.com/"
+      "value": "Ryanair",
+      "url": "http://www.ryanair.com/"
     },
     "best_int_l_air_carrier": {
-      "value": "Lufthansa",
-      "url": "http://www.lufthansa.com/"
+      "value": "SAS",
+      "url": "http://flysas.com/"
     },
     "best_hospital": {
-      "value": "Krankenhaus der Barmherzigen Brüder Trier",
-      "url": "http://www.bk-trier.de/"
-    },
-    "apartment_listings": {
-      "value": "WG Gesucht",
-      "url": "http://www.wg-gesucht.de/"
+      "value": "Aarhus University Hospital",
+      "url": "http://www.en.auh.dk/"
     }
   },
   "ES": {
@@ -55,28 +51,32 @@
       "url": "http://www.quiron.es/es/valencia"
     }
   },
-  "DK": {
+  "DE": {
     "best_taxi_app": {
-      "value": "Moove",
-      "image_url": "https://logo.clearbit.com/http://moove.taxi?s=512",
-      "url": "http://moove.taxi/",
-      "logo_url": "https://logo.clearbit.com/http://moove.taxi?s=512"
+      "value": "Uber",
+      "image_url": "https://logo.clearbit.com/http://uber.com?s=512",
+      "url": "http://uber.com/",
+      "logo_url": "https://logo.clearbit.com/http://uber.com?s=512"
     },
     "online_electronics_shop": {
-      "value": "Power",
-      "url": "https://power.dk/"
+      "value": "Amazon",
+      "url": "https://amazon.de/"
     },
     "best_short_haul_air_carrier": {
-      "value": "Ryanair",
-      "url": "http://www.ryanair.com/"
+      "value": "EasyJet",
+      "url": "http://www.easyjet.com/"
     },
     "best_int_l_air_carrier": {
-      "value": "SAS",
-      "url": "http://flysas.com/"
+      "value": "Lufthansa",
+      "url": "http://www.lufthansa.com/"
     },
     "best_hospital": {
-      "value": "Aalborg University Hospital",
-      "url": "http://wwwaalborguh.rn.dk/"
+      "value": "Krankenhaus der Barmherzigen Brüder Trier",
+      "url": "http://www.bk-trier.de/"
+    },
+    "apartment_listings": {
+      "value": "WG Gesucht",
+      "url": "http://www.wg-gesucht.de/"
     }
   },
   "CA": {
@@ -103,8 +103,8 @@
       "url": "http://www.aircanada.com/"
     },
     "best_hospital": {
-      "value": "Concordia Hospital",
-      "url": "http://www.concordiahospital.mb.ca/"
+      "value": "Windsor Regional Hospital",
+      "url": "http://www.wrh.on.ca/site_published/wrh_internet/default.aspx"
     }
   },
   "GB": {
@@ -135,6 +135,34 @@
       "url": "http://www.spareroom.co.uk/"
     }
   },
+  "US": {
+    "best_taxi_app": {
+      "value": "Uber",
+      "image_url": "https://logo.clearbit.com/http://uber.com?s=512",
+      "url": "http://uber.com/",
+      "logo_url": "https://logo.clearbit.com/http://uber.com?s=512"
+    },
+    "online_electronics_shop": {
+      "value": "Amazon",
+      "url": "https://amazon.com/"
+    },
+    "apartment_listings": {
+      "value": "Craigslist",
+      "url": "http://craigslist.org/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Delta",
+      "url": "http://delta.com/"
+    },
+    "best_hospital": {
+      "value": "Yuma Regional Medical Center Yuma Arizona Hospital",
+      "url": "http://www.yumaregional.org/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Frontier",
+      "url": "http://www.flyfrontier.com/"
+    }
+  },
   "CI": {
     "apartment_listings": {
       "value": "Airbnb",
@@ -150,6 +178,81 @@
     },
     "best_hospital": {
       "value": "Chr De Yamoussoukro"
+    }
+  },
+  "NG": {
+    "best_taxi_app": {
+      "value": "Uber",
+      "image_url": "https://logo.clearbit.com/http://uber.com?s=512",
+      "url": "http://uber.com/",
+      "logo_url": "https://logo.clearbit.com/http://uber.com?s=512"
+    },
+    "apartment_listings": {
+      "value": "La Mudi",
+      "url": "http://www.lamudi.com.ng/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Arik Air",
+      "url": "http://www.arikair.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Arik Air",
+      "url": "http://www.arikair.com/"
+    },
+    "best_hospital": {
+      "value": "ABU Teaching Hospital, Tudun Wada"
+    }
+  },
+  "TR": {
+    "best_taxi_app": {
+      "value": "Uber",
+      "image_url": "https://logo.clearbit.com/http://uber.com?s=512",
+      "url": "http://uber.com/",
+      "logo_url": "https://logo.clearbit.com/http://uber.com?s=512"
+    },
+    "online_electronics_shop": {
+      "value": "Hepsiburada",
+      "url": "https://hepsiburada.com/"
+    },
+    "apartment_listings": {
+      "value": "Sahibinden",
+      "url": "http://sahibinden.com/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "AnadoluJet",
+      "url": "http://www.anadolujet.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Turkish",
+      "url": "http://www.turkishairlines.com/"
+    },
+    "best_hospital": {
+      "value": "Special Konya Medicine Center",
+      "url": "http://konyatipmerkezi.com.tr/"
+    }
+  },
+  "GH": {
+    "best_taxi_app": {
+      "value": "Taxify",
+      "image_url": "https://logo.clearbit.com/http://taxify.eu?s=512",
+      "url": "http://taxify.eu/",
+      "logo_url": "https://logo.clearbit.com/http://taxify.eu?s=512"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Arik Air",
+      "url": "http://www.arikair.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Arik Air",
+      "url": "http://www.arikair.com/"
+    },
+    "best_hospital": {
+      "value": "Atasemanso Hospital Limited",
+      "url": "http://atasemansohospital.com/"
+    },
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://www.airbnb.com/"
     }
   },
   "AE": {
@@ -180,58 +283,6 @@
       "url": "http://propertyfinder.ae/"
     }
   },
-  "US": {
-    "best_taxi_app": {
-      "value": "Uber",
-      "image_url": "https://logo.clearbit.com/http://uber.com?s=512",
-      "url": "http://uber.com/",
-      "logo_url": "https://logo.clearbit.com/http://uber.com?s=512"
-    },
-    "online_electronics_shop": {
-      "value": "Amazon",
-      "url": "https://amazon.com/"
-    },
-    "apartment_listings": {
-      "value": "Craigslist",
-      "url": "http://craigslist.org/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Delta",
-      "url": "http://delta.com/"
-    },
-    "best_hospital": {
-      "value": "Yuma Regional Medical Center Yuma Arizona Hospital",
-      "url": "http://www.yumaregional.org/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Frontier",
-      "url": "http://www.flyfrontier.com/"
-    }
-  },
-  "GH": {
-    "best_taxi_app": {
-      "value": "Taxify",
-      "image_url": "https://logo.clearbit.com/http://taxify.eu?s=512",
-      "url": "http://taxify.eu/",
-      "logo_url": "https://logo.clearbit.com/http://taxify.eu?s=512"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Arik Air",
-      "url": "http://www.arikair.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Arik Air",
-      "url": "http://www.arikair.com/"
-    },
-    "best_hospital": {
-      "value": "Atasemanso Hospital Limited",
-      "url": "http://atasemansohospital.com/"
-    },
-    "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://www.airbnb.com/"
-    }
-  },
   "ET": {
     "best_short_haul_air_carrier": {
       "value": "Africa World Airlines",
@@ -246,32 +297,32 @@
       "url": "http://plus.google.com/104957483788215600523/about?gl=uk&hl=en%3Fref%3Dnomadlist"
     }
   },
-  "TR": {
+  "IN": {
     "best_taxi_app": {
-      "value": "Uber",
-      "image_url": "https://logo.clearbit.com/http://uber.com?s=512",
-      "url": "http://uber.com/",
-      "logo_url": "https://logo.clearbit.com/http://uber.com?s=512"
+      "value": "Ola",
+      "image_url": "https://logo.clearbit.com/http://olacabs.com?s=512",
+      "url": "http://olacabs.com/",
+      "logo_url": "https://logo.clearbit.com/http://olacabs.com?s=512"
     },
     "online_electronics_shop": {
-      "value": "Hepsiburada",
-      "url": "https://hepsiburada.com/"
+      "value": "Amazon",
+      "url": "https://amazon.in/"
     },
     "apartment_listings": {
-      "value": "Sahibinden",
-      "url": "http://sahibinden.com/"
+      "value": "99Acres",
+      "url": "http://www.99acres.com/"
     },
     "best_short_haul_air_carrier": {
-      "value": "AnadoluJet",
-      "url": "http://www.anadolujet.com/"
+      "value": "Indigo",
+      "url": "http://goindigo.in/"
     },
     "best_int_l_air_carrier": {
-      "value": "Turkish",
-      "url": "http://www.turkishairlines.com/"
+      "value": "Jet Airways",
+      "url": "http://www.jetairways.com/"
     },
     "best_hospital": {
-      "value": "Special Konya Medicine Center",
-      "url": "http://konyatipmerkezi.com.tr/"
+      "value": "Samarpan Hospital",
+      "url": "http://www.facebook.com/samarpanhospital"
     }
   },
   "AU": {
@@ -373,57 +424,6 @@
       "value": "American Hospital Tehran"
     }
   },
-  "NG": {
-    "best_taxi_app": {
-      "value": "Uber",
-      "image_url": "https://logo.clearbit.com/http://uber.com?s=512",
-      "url": "http://uber.com/",
-      "logo_url": "https://logo.clearbit.com/http://uber.com?s=512"
-    },
-    "apartment_listings": {
-      "value": "La Mudi",
-      "url": "http://www.lamudi.com.ng/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Arik Air",
-      "url": "http://www.arikair.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Arik Air",
-      "url": "http://www.arikair.com/"
-    },
-    "best_hospital": {
-      "value": "ABU Teaching Hospital, Tudun Wada"
-    }
-  },
-  "IN": {
-    "best_taxi_app": {
-      "value": "Ola",
-      "image_url": "https://logo.clearbit.com/http://olacabs.com?s=512",
-      "url": "http://olacabs.com/",
-      "logo_url": "https://logo.clearbit.com/http://olacabs.com?s=512"
-    },
-    "online_electronics_shop": {
-      "value": "Amazon",
-      "url": "https://amazon.in/"
-    },
-    "apartment_listings": {
-      "value": "99Acres",
-      "url": "http://www.99acres.com/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Indigo",
-      "url": "http://goindigo.in/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Jet Airways",
-      "url": "http://www.jetairways.com/"
-    },
-    "best_hospital": {
-      "value": "Samarpan Hospital",
-      "url": "http://www.facebook.com/samarpanhospital"
-    }
-  },
   "PT": {
     "best_taxi_app": {
       "value": "Uber",
@@ -452,24 +452,6 @@
       "url": "http://hospitaldaluz.pt/"
     }
   },
-  "SY": {
-    "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://airbnb.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Syria Air",
-      "url": "http://www.syriaair.com/"
-    },
-    "best_hospital": {
-      "value": "SARC",
-      "url": "http://sarc.sy/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Syria Air",
-      "url": "http://www.syriaair.com/"
-    }
-  },
   "NO": {
     "online_electronics_shop": {
       "value": "Komplett",
@@ -490,6 +472,24 @@
     "best_hospital": {
       "value": "Aleris",
       "url": "http://www.aleris.no/her-finnes-vi/trondheim/aleris-sykehus-medisinsk-senter-trondheim/"
+    }
+  },
+  "SY": {
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://airbnb.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Syria Air",
+      "url": "http://www.syriaair.com/"
+    },
+    "best_hospital": {
+      "value": "SARC",
+      "url": "http://sarc.sy/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Syria Air",
+      "url": "http://www.syriaair.com/"
     }
   },
   "EG": {
@@ -536,28 +536,6 @@
       "url": "http://www.airalgerie.dz/"
     }
   },
-  "KZ": {
-    "best_taxi_app": {
-      "value": "Yandex Taxi",
-      "image_url": "https://logo.clearbit.com/http://taxi.yandex.kz?s=512",
-      "url": "http://taxi.yandex.kz/",
-      "logo_url": "https://logo.clearbit.com/http://taxi.yandex.kz?s=512"
-    },
-    "apartment_listings": {
-      "value": "http://www.travelmob.com"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Air Astana",
-      "url": "http://airastana.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Air Astana",
-      "url": "http://airastana.com/"
-    },
-    "best_hospital": {
-      "value": "http://capital hostel astana"
-    }
-  },
   "IT": {
     "best_taxi_app": {
       "value": "Uber",
@@ -584,6 +562,28 @@
     "best_short_haul_air_carrier": {
       "value": "Ryanair",
       "url": "http://www.ryanair.com/"
+    }
+  },
+  "KZ": {
+    "best_taxi_app": {
+      "value": "Yandex Taxi",
+      "image_url": "https://logo.clearbit.com/http://taxi.yandex.kz?s=512",
+      "url": "http://taxi.yandex.kz/",
+      "logo_url": "https://logo.clearbit.com/http://taxi.yandex.kz?s=512"
+    },
+    "apartment_listings": {
+      "value": "http://www.travelmob.com"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Air Astana",
+      "url": "http://airastana.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Air Astana",
+      "url": "http://airastana.com/"
+    },
+    "best_hospital": {
+      "value": "http://capital hostel astana"
     }
   },
   "NL": {
@@ -614,6 +614,26 @@
       "url": "http://www.transavia.com/"
     }
   },
+  "JO": {
+    "best_taxi_app": {
+      "value": "Careem",
+      "image_url": "https://logo.clearbit.com/http://careem.com?s=512",
+      "url": "http://careem.com/",
+      "logo_url": "https://logo.clearbit.com/http://careem.com?s=512"
+    },
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://airbnb.com/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Royal Falcon",
+      "url": "http://royalfalcon.com.jo/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Royal Jordanian",
+      "url": "http://rj.com/"
+    }
+  },
   "BR": {
     "best_taxi_app": {
       "value": "Uber",
@@ -640,26 +660,6 @@
     "best_hospital": {
       "value": "Samaritano",
       "url": "http://www.samaritano.org.b/"
-    }
-  },
-  "JO": {
-    "best_taxi_app": {
-      "value": "Careem",
-      "image_url": "https://logo.clearbit.com/http://careem.com?s=512",
-      "url": "http://careem.com/",
-      "logo_url": "https://logo.clearbit.com/http://careem.com?s=512"
-    },
-    "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://airbnb.com/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Royal Falcon",
-      "url": "http://royalfalcon.com.jo/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Royal Jordanian",
-      "url": "http://rj.com/"
     }
   },
   "CN": {
@@ -690,6 +690,34 @@
     "apartment_listings": {
       "value": "Airbnb",
       "url": "http://www.airbnb.com/"
+    }
+  },
+  "TH": {
+    "best_taxi_app": {
+      "value": "Grab",
+      "image_url": "https://logo.clearbit.com/http://grab.com?s=512",
+      "url": "http://grab.com/",
+      "logo_url": "https://logo.clearbit.com/http://grab.com?s=512"
+    },
+    "online_electronics_shop": {
+      "value": "Lazada",
+      "url": "https://lazada.co.th/"
+    },
+    "apartment_listings": {
+      "value": "Prakard",
+      "url": "http://prakard.com/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Air Asia",
+      "url": "http://www.airasia.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Emirates",
+      "url": "http://www.emirates.com/"
+    },
+    "best_hospital": {
+      "value": "Bangkok Hospital",
+      "url": "http://bangkokhospital.com/"
     }
   },
   "BE": {
@@ -732,34 +760,6 @@
     "best_hospital": {
       "value": "Tupua Tamasese Meaole Hospital",
       "url": "http://www.nhs.gov.ws/"
-    }
-  },
-  "TH": {
-    "best_taxi_app": {
-      "value": "Grab",
-      "image_url": "https://logo.clearbit.com/http://grab.com?s=512",
-      "url": "http://grab.com/",
-      "logo_url": "https://logo.clearbit.com/http://grab.com?s=512"
-    },
-    "online_electronics_shop": {
-      "value": "Lazada",
-      "url": "https://lazada.co.th/"
-    },
-    "apartment_listings": {
-      "value": "Prakard",
-      "url": "http://prakard.com/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Air Asia",
-      "url": "http://www.airasia.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Emirates",
-      "url": "http://www.emirates.com/"
-    },
-    "best_hospital": {
-      "value": "Bangkok Hospital",
-      "url": "http://bangkokhospital.com/"
     }
   },
   "LK": {
@@ -847,6 +847,36 @@
       "url": "http://www.smb.com.py/"
     }
   },
+  "CK": {
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://airbnb.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Air New Zealand",
+      "url": "http://www.airnewzealand.co.nz/"
+    },
+    "best_hospital": {
+      "value": "Rarotonga Hospital"
+    }
+  },
+  "IQ": {
+    "best_short_haul_air_carrier": {
+      "value": "Iraqi Airways",
+      "url": "http://www.iraqiairways.co.uk/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Iraqi Airways",
+      "url": "http://www.iraqiairways.co.uk/"
+    },
+    "best_hospital": {
+      "value": "Bazzaz Iraqi hospital"
+    },
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://www.airbnb.com/s/iraq"
+    }
+  },
   "NZ": {
     "best_taxi_app": {
       "value": "Uber",
@@ -871,21 +901,28 @@
       "url": "http://www.qmc.co.nz/"
     }
   },
-  "IQ": {
-    "best_short_haul_air_carrier": {
-      "value": "Iraqi Airways",
-      "url": "http://www.iraqiairways.co.uk/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Iraqi Airways",
-      "url": "http://www.iraqiairways.co.uk/"
-    },
-    "best_hospital": {
-      "value": "Bazzaz Iraqi hospital"
+  "PK": {
+    "best_taxi_app": {
+      "value": "Careem",
+      "image_url": "https://logo.clearbit.com/http://careem.com?s=512",
+      "url": "http://careem.com/",
+      "logo_url": "https://logo.clearbit.com/http://careem.com?s=512"
     },
     "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://www.airbnb.com/s/iraq"
+      "value": "OLX",
+      "url": "http://www.olx.com.pk/apartments/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "PAK",
+      "url": "http://www.piac.com.pk/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "PAK",
+      "url": "http://www.piac.com.pk/"
+    },
+    "best_hospital": {
+      "value": "Bilal Hospital",
+      "url": "http://www.bilalhospital.com/"
     }
   },
   "PH": {
@@ -915,43 +952,6 @@
       "url": "http://www.cebupacificair.com/"
     }
   },
-  "CK": {
-    "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://airbnb.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Air New Zealand",
-      "url": "http://www.airnewzealand.co.nz/"
-    },
-    "best_hospital": {
-      "value": "Rarotonga Hospital"
-    }
-  },
-  "PK": {
-    "best_taxi_app": {
-      "value": "Careem",
-      "image_url": "https://logo.clearbit.com/http://careem.com?s=512",
-      "url": "http://careem.com/",
-      "logo_url": "https://logo.clearbit.com/http://careem.com?s=512"
-    },
-    "apartment_listings": {
-      "value": "OLX",
-      "url": "http://www.olx.com.pk/apartments/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "PAK",
-      "url": "http://www.piac.com.pk/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "PAK",
-      "url": "http://www.piac.com.pk/"
-    },
-    "best_hospital": {
-      "value": "Bilal Hospital",
-      "url": "http://www.bilalhospital.com/"
-    }
-  },
   "ML": {
     "apartment_listings": {
       "value": "Airbnb",
@@ -964,6 +964,26 @@
     "best_hospital": {
       "value": "Golden Life American Hospital",
       "url": "http://www.glahospital.com/"
+    }
+  },
+  "AZ": {
+    "best_taxi_app": {
+      "value": "Taxify",
+      "image_url": "https://logo.clearbit.com/http://Taxify.eu?s=512",
+      "url": "http://taxify.eu/",
+      "logo_url": "https://logo.clearbit.com/http://Taxify.eu?s=512"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Azerbaijan Airlines",
+      "url": "http://www.azal.az/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Azerbaijan Airlines",
+      "url": "http://www.azal.az/"
+    },
+    "best_hospital": {
+      "value": "International SOS Baku",
+      "url": "http://www.internationalsos.com/ebout-our-clinics_azerbaijan_34.htm"
     }
   },
   "ID": {
@@ -994,20 +1014,6 @@
       "url": "http://airbnb.com/"
     }
   },
-  "BN": {
-    "best_short_haul_air_carrier": {
-      "value": "Royal Brunei Airline",
-      "url": "http://www.flyroyalbrunei.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Royal Brunei Airlines",
-      "url": "http://www.flyroyalbrunei.com/"
-    },
-    "best_hospital": {
-      "value": "JPMC",
-      "url": "http://www.jpmc.com.bn/"
-    }
-  },
   "null": {
     "best_taxi_app": {
       "value": "MojTaxi",
@@ -1030,6 +1036,20 @@
     "apartment_listings": {
       "value": "Kurdigo",
       "url": "http://kurdigo.com/"
+    }
+  },
+  "BN": {
+    "best_short_haul_air_carrier": {
+      "value": "Royal Brunei Airline",
+      "url": "http://www.flyroyalbrunei.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Royal Brunei Airlines",
+      "url": "http://www.flyroyalbrunei.com/"
+    },
+    "best_hospital": {
+      "value": "JPMC",
+      "url": "http://www.jpmc.com.bn/"
     }
   },
   "ME": {
@@ -1126,6 +1146,34 @@
       "url": "http://www.allianzworldwidecare.com/"
     }
   },
+  "IL": {
+    "best_taxi_app": {
+      "value": "Gett",
+      "image_url": "https://logo.clearbit.com/http://gett.com?s=512",
+      "url": "http://gett.com/",
+      "logo_url": "https://logo.clearbit.com/http://gett.com?s=512"
+    },
+    "online_electronics_shop": {
+      "value": "Zap",
+      "url": "https://zap.co.il/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "ElAl",
+      "url": "http://www.elal.co.il/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "ElAl",
+      "url": "http://www.elal.co.il/"
+    },
+    "best_hospital": {
+      "value": "Hadassah Medical Center",
+      "url": "http://www.hadassah-med.com/"
+    },
+    "apartment_listings": {
+      "value": "HomeAway",
+      "url": "http://www.homeaway.com/"
+    }
+  },
   "GE": {
     "best_taxi_app": {
       "value": "Bolt",
@@ -1160,54 +1208,6 @@
     "best_int_l_air_carrier": {
       "value": "Turkish",
       "url": "http://www.turkishairlines.com/"
-    }
-  },
-  "AZ": {
-    "best_taxi_app": {
-      "value": "Taxify",
-      "image_url": "https://logo.clearbit.com/http://Taxify.eu?s=512",
-      "url": "http://taxify.eu/",
-      "logo_url": "https://logo.clearbit.com/http://Taxify.eu?s=512"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Azerbaijan Airlines",
-      "url": "http://www.azal.az/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Azerbaijan Airlines",
-      "url": "http://www.azal.az/"
-    },
-    "best_hospital": {
-      "value": "International SOS Baku",
-      "url": "http://www.internationalsos.com/ebout-our-clinics_azerbaijan_34.htm"
-    }
-  },
-  "IL": {
-    "best_taxi_app": {
-      "value": "Gett",
-      "image_url": "https://logo.clearbit.com/http://gett.com?s=512",
-      "url": "http://gett.com/",
-      "logo_url": "https://logo.clearbit.com/http://gett.com?s=512"
-    },
-    "online_electronics_shop": {
-      "value": "Zap",
-      "url": "https://zap.co.il/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "ElAl",
-      "url": "http://www.elal.co.il/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "ElAl",
-      "url": "http://www.elal.co.il/"
-    },
-    "best_hospital": {
-      "value": "Hadassah Medical Center",
-      "url": "http://www.hadassah-med.com/"
-    },
-    "apartment_listings": {
-      "value": "HomeAway",
-      "url": "http://www.homeaway.com/"
     }
   },
   "LY": {
@@ -1298,24 +1298,6 @@
       "url": "http://www.arcadiamedical.ro/"
     }
   },
-  "CG": {
-    "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://www.airbnb.com/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Congo Airways",
-      "url": "http://www.congoairways.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Air France",
-      "url": "http://www.airfrance.com/indexcom_en.html"
-    },
-    "best_hospital": {
-      "value": "University Hospital of Brazzaville",
-      "url": "http://na/"
-    }
-  },
   "SK": {
     "best_taxi_app": {
       "value": "Taxify",
@@ -1342,6 +1324,24 @@
     "best_hospital": {
       "value": "Kosice-Saca Hospital",
       "url": "http://www.nemocnicasaca.sk/en/hospital/"
+    }
+  },
+  "CG": {
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://www.airbnb.com/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Congo Airways",
+      "url": "http://www.congoairways.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Air France",
+      "url": "http://www.airfrance.com/indexcom_en.html"
+    },
+    "best_hospital": {
+      "value": "University Hospital of Brazzaville",
+      "url": "http://na/"
     }
   },
   "CZ": {
@@ -1530,30 +1530,6 @@
       "url": "http://turkishairlines.com/"
     }
   },
-  "BO": {
-    "best_taxi_app": {
-      "value": "Uber",
-      "image_url": "https://logo.clearbit.com/http://uber.com?s=512",
-      "url": "http://uber.com/",
-      "logo_url": "https://logo.clearbit.com/http://uber.com?s=512"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Línea Aérea Amaszonas",
-      "url": "http://www.amaszonas.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "KLM",
-      "url": "http://www.klm.com/"
-    },
-    "apartment_listings": {
-      "value": "Sublet",
-      "url": "http://www.sublet.com/"
-    },
-    "best_hospital": {
-      "value": "Marie Stopes 2",
-      "url": "http://www.mariestopes.org.bo/"
-    }
-  },
   "BD": {
     "best_taxi_app": {
       "value": "Uber",
@@ -1578,6 +1554,30 @@
       "url": "http://www.gmc.edu.bd/"
     }
   },
+  "BO": {
+    "best_taxi_app": {
+      "value": "Uber",
+      "image_url": "https://logo.clearbit.com/http://uber.com?s=512",
+      "url": "http://uber.com/",
+      "logo_url": "https://logo.clearbit.com/http://uber.com?s=512"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Línea Aérea Amaszonas",
+      "url": "http://www.amaszonas.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "KLM",
+      "url": "http://www.klm.com/"
+    },
+    "apartment_listings": {
+      "value": "Sublet",
+      "url": "http://www.sublet.com/"
+    },
+    "best_hospital": {
+      "value": "Marie Stopes 2",
+      "url": "http://www.mariestopes.org.bo/"
+    }
+  },
   "GN": {
     "apartment_listings": {
       "value": "Airbnb",
@@ -1589,6 +1589,34 @@
     },
     "best_hospital": {
       "value": "Grand Hopital De Kissosso"
+    }
+  },
+  "GR": {
+    "best_taxi_app": {
+      "value": "Beat",
+      "image_url": "https://logo.clearbit.com/http://thebeat.co?s=512",
+      "url": "http://thebeat.co/",
+      "logo_url": "https://logo.clearbit.com/http://thebeat.co?s=512"
+    },
+    "online_electronics_shop": {
+      "value": "Skroutz",
+      "url": "https://skroutz.gr/"
+    },
+    "apartment_listings": {
+      "value": "Spitogatos",
+      "url": "http://www.spitogatos.gr/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Aegean",
+      "url": "http://en.aegeanair.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Aegean Air",
+      "url": "http://aegeanair.com/"
+    },
+    "best_hospital": {
+      "value": "Interbalcan European Medical Center",
+      "url": "http://www.iatrikodiavalkaniko.gr/en"
     }
   },
   "AR": {
@@ -1641,34 +1669,6 @@
     "best_hospital": {
       "value": "Galway Hospital",
       "url": "http://www.galwayclinic.com/"
-    }
-  },
-  "GR": {
-    "best_taxi_app": {
-      "value": "Beat",
-      "image_url": "https://logo.clearbit.com/http://thebeat.co?s=512",
-      "url": "http://thebeat.co/",
-      "logo_url": "https://logo.clearbit.com/http://thebeat.co?s=512"
-    },
-    "online_electronics_shop": {
-      "value": "Skroutz",
-      "url": "https://skroutz.gr/"
-    },
-    "apartment_listings": {
-      "value": "Spitogatos",
-      "url": "http://www.spitogatos.gr/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Aegean",
-      "url": "http://en.aegeanair.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Aegean Air",
-      "url": "http://aegeanair.com/"
-    },
-    "best_hospital": {
-      "value": "Interbalcan European Medical Center",
-      "url": "http://www.iatrikodiavalkaniko.gr/en"
     }
   },
   "EC": {
@@ -1727,26 +1727,6 @@
       "url": "http://emirates.com/"
     }
   },
-  "SA": {
-    "best_taxi_app": {
-      "value": "Careem",
-      "image_url": "https://logo.clearbit.com/http://careem.com?s=512",
-      "url": "http://careem.com/",
-      "logo_url": "https://logo.clearbit.com/http://careem.com?s=512"
-    },
-    "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://airbnb.com/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Saudi",
-      "url": "http://saudiairlines.co/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Emirates",
-      "url": "http://emirates.com/"
-    }
-  },
   "TZ": {
     "best_taxi_app": {
       "value": "Taxify",
@@ -1767,18 +1747,24 @@
       "url": "http://emirates.com/"
     }
   },
-  "TL": {
+  "SA": {
+    "best_taxi_app": {
+      "value": "Careem",
+      "image_url": "https://logo.clearbit.com/http://careem.com?s=512",
+      "url": "http://careem.com/",
+      "logo_url": "https://logo.clearbit.com/http://careem.com?s=512"
+    },
     "apartment_listings": {
       "value": "Airbnb",
       "url": "http://airbnb.com/"
     },
-    "best_int_l_air_carrier": {
-      "value": "Qantas",
-      "url": "http://www.qantas.com/nl/en.html"
+    "best_short_haul_air_carrier": {
+      "value": "Saudi",
+      "url": "http://saudiairlines.co/"
     },
-    "best_hospital": {
-      "value": "Clinic Lanud",
-      "url": "http://bairopitecliniclanud.com/"
+    "best_int_l_air_carrier": {
+      "value": "Emirates",
+      "url": "http://emirates.com/"
     }
   },
   "GU": {
@@ -1797,6 +1783,33 @@
     "best_hospital": {
       "value": "Guam Regional Medical City",
       "url": "http://www.grmc.gu/"
+    }
+  },
+  "TL": {
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://airbnb.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Qantas",
+      "url": "http://www.qantas.com/nl/en.html"
+    },
+    "best_hospital": {
+      "value": "Clinic Lanud",
+      "url": "http://bairopitecliniclanud.com/"
+    }
+  },
+  "DJ": {
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://airbnb.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Ethiopian Airlines",
+      "url": "http://www.ethiopianairlines.com/aa/en"
+    },
+    "best_hospital": {
+      "value": "FK Medical SDMS"
     }
   },
   "UA": {
@@ -1824,19 +1837,6 @@
     },
     "best_hospital": {
       "value": "Clinica Medeya"
-    }
-  },
-  "DJ": {
-    "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://airbnb.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Ethiopian Airlines",
-      "url": "http://www.ethiopianairlines.com/aa/en"
-    },
-    "best_hospital": {
-      "value": "FK Medical SDMS"
     }
   },
   "QA": {
@@ -1968,34 +1968,6 @@
       "value": "Princess Margaret Hospital"
     }
   },
-  "JP": {
-    "best_taxi_app": {
-      "value": "Line Taxi",
-      "image_url": "https://logo.clearbit.com/http://taxi.line.me?s=512",
-      "url": "http://taxi.line.me/",
-      "logo_url": "https://logo.clearbit.com/http://taxi.line.me?s=512"
-    },
-    "online_electronics_shop": {
-      "value": "Amazon",
-      "url": "https://amazon.jp/"
-    },
-    "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://www.airbnb.com/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "All Nippon Airlines",
-      "url": "http://www.ana.co.jp/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Japan Airlines",
-      "url": "http://www.jal.com/"
-    },
-    "best_hospital": {
-      "value": "Osaka University Hospital",
-      "url": "http://www.hosp.med.osaka-u.ac.jp/english/"
-    }
-  },
   "BW": {
     "apartment_listings": {
       "value": "Airbnb",
@@ -2035,6 +2007,34 @@
     "apartment_listings": {
       "value": "OLX",
       "url": "http://olx.pl/"
+    }
+  },
+  "JP": {
+    "best_taxi_app": {
+      "value": "Line Taxi",
+      "image_url": "https://logo.clearbit.com/http://taxi.line.me?s=512",
+      "url": "http://taxi.line.me/",
+      "logo_url": "https://logo.clearbit.com/http://taxi.line.me?s=512"
+    },
+    "online_electronics_shop": {
+      "value": "Amazon",
+      "url": "https://amazon.jp/"
+    },
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://www.airbnb.com/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "All Nippon Airlines",
+      "url": "http://www.ana.co.jp/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Japan Airlines",
+      "url": "http://www.jal.com/"
+    },
+    "best_hospital": {
+      "value": "Osaka University Hospital",
+      "url": "http://www.hosp.med.osaka-u.ac.jp/english/"
     }
   },
   "GI": {
@@ -2149,6 +2149,24 @@
       "url": "http://airkoryo.org/"
     }
   },
+  "ZW": {
+    "apartment_listings": {
+      "value": "FlipKey",
+      "url": "http://www.flipkey.com/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Ethiopian Airlines",
+      "url": "http://www.flyafricaworld.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Ethiopian Airlines",
+      "url": "http://www.ethiopianairlines.com/en/default.aspx"
+    },
+    "best_hospital": {
+      "value": "Borrowdale Trauma Centre",
+      "url": "http://www.traumacentrehospital.com/layouts/web/"
+    }
+  },
   "CU": {
     "apartment_listings": {
       "value": "Cubaccomidation",
@@ -2180,22 +2198,28 @@
       "value": "Good Samaritan Hospital"
     }
   },
-  "ZW": {
-    "apartment_listings": {
-      "value": "FlipKey",
-      "url": "http://www.flipkey.com/"
+  "CL": {
+    "best_taxi_app": {
+      "value": "Uber",
+      "image_url": "https://logo.clearbit.com/http://uber.com?s=512",
+      "url": "http://uber.com/",
+      "logo_url": "https://logo.clearbit.com/http://uber.com?s=512"
     },
-    "best_short_haul_air_carrier": {
-      "value": "Ethiopian Airlines",
-      "url": "http://www.flyafricaworld.com/"
+    "apartment_listings": {
+      "value": "Vivastreet",
+      "url": "http://www.vivastreet.cl/"
     },
     "best_int_l_air_carrier": {
-      "value": "Ethiopian Airlines",
-      "url": "http://www.ethiopianairlines.com/en/default.aspx"
+      "value": "KLM",
+      "url": "http://klm.com/"
     },
     "best_hospital": {
-      "value": "Borrowdale Trauma Centre",
-      "url": "http://www.traumacentrehospital.com/layouts/web/"
+      "value": "Servicio de Salud Viña del Mar Quillota",
+      "url": "http://www.ssvq.cl/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "LAN",
+      "url": "http://lan.com/"
     }
   },
   "MY": {
@@ -2224,30 +2248,6 @@
     "best_short_haul_air_carrier": {
       "value": "Air Asia",
       "url": "http://www.airasia.com/"
-    }
-  },
-  "CL": {
-    "best_taxi_app": {
-      "value": "Uber",
-      "image_url": "https://logo.clearbit.com/http://uber.com?s=512",
-      "url": "http://uber.com/",
-      "logo_url": "https://logo.clearbit.com/http://uber.com?s=512"
-    },
-    "apartment_listings": {
-      "value": "Vivastreet",
-      "url": "http://www.vivastreet.cl/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "KLM",
-      "url": "http://klm.com/"
-    },
-    "best_hospital": {
-      "value": "Servicio de Salud Viña del Mar Quillota",
-      "url": "http://www.ssvq.cl/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "LAN",
-      "url": "http://lan.com/"
     }
   },
   "RU": {
@@ -2440,24 +2440,6 @@
       "url": "http://www.emirates.com/"
     }
   },
-  "CD": {
-    "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://www.airbnb.com/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Congo Airways",
-      "url": "http://www.congoairways.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Air France",
-      "url": "http://www.airfrance.com/indexcom_en.html"
-    },
-    "best_hospital": {
-      "value": "Centre Medical de Kinshasa",
-      "url": "http://www.hospitalscout.com/en/hospitals/facility/157728/centre-medical-de-kinshasa-cmk.html"
-    }
-  },
   "JM": {
     "apartment_listings": {
       "value": "FlipKey",
@@ -2474,6 +2456,24 @@
     "best_hospital": {
       "value": "Andrews Memorial Hospital",
       "url": "http://www.www.amhosp.org/"
+    }
+  },
+  "CD": {
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://www.airbnb.com/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Congo Airways",
+      "url": "http://www.congoairways.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Air France",
+      "url": "http://www.airfrance.com/indexcom_en.html"
+    },
+    "best_hospital": {
+      "value": "Centre Medical de Kinshasa",
+      "url": "http://www.hospitalscout.com/en/hospitals/facility/157728/centre-medical-de-kinshasa-cmk.html"
     }
   },
   "KW": {
@@ -2608,38 +2608,6 @@
       "url": "http://cliniquebiasa.org/"
     }
   },
-  "AO": {
-    "apartment_listings": {
-      "value": "Casa Sapo",
-      "url": "http://casa.sapo.ao/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "TAAG Angola Airlines",
-      "url": "http://www.taag.com/en/home.aspx"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Arik Air",
-      "url": "http://www.arikair.com/"
-    },
-    "best_hospital": {
-      "value": "Allianz Worldwide Care",
-      "url": "http://www.allianzworldwidecare.com/"
-    }
-  },
-  "LU": {
-    "apartment_listings": {
-      "value": "Immotop",
-      "url": "http://www.immotop.lu/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Ryanair",
-      "url": "http://www.ryanair.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Ryanair",
-      "url": "http://www.ryanair.com/"
-    }
-  },
   "SI": {
     "online_electronics_shop": {
       "value": "Mimovrste",
@@ -2658,6 +2626,24 @@
       "url": "http://www.airlinequality.com/"
     }
   },
+  "AO": {
+    "apartment_listings": {
+      "value": "Casa Sapo",
+      "url": "http://casa.sapo.ao/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "TAAG Angola Airlines",
+      "url": "http://www.taag.com/en/home.aspx"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Arik Air",
+      "url": "http://www.arikair.com/"
+    },
+    "best_hospital": {
+      "value": "Allianz Worldwide Care",
+      "url": "http://www.allianzworldwidecare.com/"
+    }
+  },
   "MV": {
     "apartment_listings": {
       "value": "Ibay",
@@ -2674,6 +2660,26 @@
     "best_hospital": {
       "value": "ADK Hospital",
       "url": "http://www.adkhospital.mv/"
+    }
+  },
+  "BH": {
+    "best_taxi_app": {
+      "value": "Careem",
+      "image_url": "https://logo.clearbit.com/http://careem.com?s=512",
+      "url": "http://careem.com/",
+      "logo_url": "https://logo.clearbit.com/http://careem.com?s=512"
+    },
+    "apartment_listings": {
+      "value": "Agoda",
+      "url": "http://www.agoda.com/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Gulf Air",
+      "url": "http://www.gulfair.com/english/pages/default.aspx"
+    },
+    "best_hospital": {
+      "value": "The International Hospital of Bahrain",
+      "url": "http://www.ihb.net/"
     }
   },
   "MM": {
@@ -2700,26 +2706,6 @@
       "url": "http://flymna.com/"
     }
   },
-  "BH": {
-    "best_taxi_app": {
-      "value": "Careem",
-      "image_url": "https://logo.clearbit.com/http://careem.com?s=512",
-      "url": "http://careem.com/",
-      "logo_url": "https://logo.clearbit.com/http://careem.com?s=512"
-    },
-    "apartment_listings": {
-      "value": "Agoda",
-      "url": "http://www.agoda.com/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "Gulf Air",
-      "url": "http://www.gulfair.com/english/pages/default.aspx"
-    },
-    "best_hospital": {
-      "value": "The International Hospital of Bahrain",
-      "url": "http://www.ihb.net/"
-    }
-  },
   "MZ": {
     "apartment_listings": {
       "value": "Airbnb",
@@ -2732,6 +2718,20 @@
     "best_hospital": {
       "value": "Ordem Dos Médicos De Moçambique",
       "url": "http://ordemdosmedicos.org.mz/"
+    }
+  },
+  "LU": {
+    "apartment_listings": {
+      "value": "Immotop",
+      "url": "http://www.immotop.lu/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "Ryanair",
+      "url": "http://www.ryanair.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Ryanair",
+      "url": "http://www.ryanair.com/"
     }
   },
   "BY": {
@@ -2770,12 +2770,6 @@
     "best_hospital": {
       "value": "Banadir Hospital",
       "url": "http://banadirhospital.com/"
-    }
-  },
-  "MC": {
-    "best_hospital": {
-      "value": "Centre Hospitalier Princesse Grace",
-      "url": "http://chpg.mc/"
     }
   },
   "KE": {
@@ -2832,6 +2826,12 @@
       "url": "http://www.united.com/"
     }
   },
+  "MC": {
+    "best_hospital": {
+      "value": "Centre Hospitalier Princesse Grace",
+      "url": "http://chpg.mc/"
+    }
+  },
   "OM": {
     "best_taxi_app": {
       "value": "Careem",
@@ -2850,6 +2850,19 @@
     "best_hospital": {
       "value": "Muscat Private Hospital",
       "url": "http://www.muscatprivatehospital.com/"
+    }
+  },
+  "TD": {
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://airbnb.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Ethiopian Airlines",
+      "url": "http://www.ethiopianairlines.com/aa/en"
+    },
+    "best_hospital": {
+      "value": "Hôpital moderne"
     }
   },
   "BS": {
@@ -2878,19 +2891,6 @@
     "best_hospital": {
       "value": "Polyclinic Magori",
       "url": "http://www.clinique-magori.com/"
-    }
-  },
-  "TD": {
-    "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://airbnb.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Ethiopian Airlines",
-      "url": "http://www.ethiopianairlines.com/aa/en"
-    },
-    "best_hospital": {
-      "value": "Hôpital moderne"
     }
   },
   "RS": {
@@ -3020,20 +3020,6 @@
       "url": "http://www.lumiereministries.com/kingsorganization.html"
     }
   },
-  "MU": {
-    "apartment_listings": {
-      "value": "Property Cloud",
-      "url": "http://www.propertycloud.mu/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "KLM",
-      "url": "http://www.klm.com/"
-    },
-    "best_hospital": {
-      "value": "Dr A. G. JEETOO HOSPITAL",
-      "url": "http://health.govmu.org/english/serviceshealth/hospitals/pages/dr-a-gaffoor-jeetoo.aspx"
-    }
-  },
   "TT": {
     "apartment_listings": {
       "value": "Trini Apartments",
@@ -3046,20 +3032,6 @@
     "best_hospital": {
       "value": "West Shore Medical",
       "url": "http://westshoreprivatehospital.com/"
-    }
-  },
-  "VU": {
-    "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://airbnb.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Singapore Airlines",
-      "url": "http://www.singaporeair.com/nl_nl/nl/home"
-    },
-    "best_hospital": {
-      "value": "VANUATU PRIVATE HOSPITAL",
-      "url": "http://vphospital.com/en/"
     }
   },
   "PG": {
@@ -3080,6 +3052,20 @@
       "url": "http://www.pomgen.gov.pg/"
     }
   },
+  "MU": {
+    "apartment_listings": {
+      "value": "Property Cloud",
+      "url": "http://www.propertycloud.mu/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "KLM",
+      "url": "http://www.klm.com/"
+    },
+    "best_hospital": {
+      "value": "Dr A. G. JEETOO HOSPITAL",
+      "url": "http://health.govmu.org/english/serviceshealth/hospitals/pages/dr-a-gaffoor-jeetoo.aspx"
+    }
+  },
   "CV": {
     "apartment_listings": {
       "value": "Airbnb",
@@ -3093,6 +3079,20 @@
       "value": "Hospital de São Domingos"
     }
   },
+  "VU": {
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://airbnb.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Singapore Airlines",
+      "url": "http://www.singaporeair.com/nl_nl/nl/home"
+    },
+    "best_hospital": {
+      "value": "VANUATU PRIVATE HOSPITAL",
+      "url": "http://vphospital.com/en/"
+    }
+  },
   "PS": {
     "best_short_haul_air_carrier": {
       "value": "El Al",
@@ -3101,20 +3101,6 @@
     "best_int_l_air_carrier": {
       "value": "El Al",
       "url": "http://elal.com/"
-    }
-  },
-  "IS": {
-    "apartment_listings": {
-      "value": "Airbnb",
-      "url": "http://airbnb.com/"
-    },
-    "best_short_haul_air_carrier": {
-      "value": "IcelandAir",
-      "url": "http://icelandair.com/"
-    },
-    "best_int_l_air_carrier": {
-      "value": "Finnair",
-      "url": "http://finnair.com/"
     }
   },
   "LV": {
@@ -3131,6 +3117,20 @@
     "best_int_l_air_carrier": {
       "value": "Air Baltic",
       "url": "http://www.airbaltic.com/"
+    }
+  },
+  "IS": {
+    "apartment_listings": {
+      "value": "Airbnb",
+      "url": "http://airbnb.com/"
+    },
+    "best_short_haul_air_carrier": {
+      "value": "IcelandAir",
+      "url": "http://icelandair.com/"
+    },
+    "best_int_l_air_carrier": {
+      "value": "Finnair",
+      "url": "http://finnair.com/"
     }
   },
   "PR": {
