@@ -164,6 +164,148 @@ function processCountryHtml(html) {
   }
 }
 
+const transformAttributesToScores = (countryContent) => {
+  const scoreMapping = {
+    "🧨 Conflict / political instability": 0,
+    "very bad": 1,
+    bad: 2,
+    okay: 3,
+    good: 4,
+    great: 5,
+  }
+
+  // All the attributes that we want to map to scores
+  const attributes = [
+    "safety",
+    "food_safety",
+    "lack_of_crime",
+    "power_grid",
+    "vulnerability_to_climate_change",
+  ]
+
+  const scores = {}
+
+  for (const attr of attributes) {
+    const valuePath = `details.${attr}.value`
+
+    try {
+      const currentValue = valuePath
+        .split(".")
+        .reduce((obj, key) => obj?.[key], countryContent)
+        ?.trim()
+        ?.toLowerCase()
+
+      const score = scoreMapping[currentValue]
+      if (score !== undefined) {
+        scores[attr] = String(score)
+
+        // Remove the original attribute
+        delete countryContent.details[attr]
+      }
+    } catch (error) {
+      console.error(`Error processing ${attr} for ${valuePath}:`, error)
+      continue
+    }
+  }
+
+  countryContent.scores = { ...countryContent.scores, ...scores }
+}
+
+const extractCityTraits = (countryContent) => {
+  const city_traits = {}
+  const details = countryContent?.details
+
+  for (const key of Object.keys(details)) {
+    const costPattern = /\$\s?([\d,]+)/
+    const valueString = details[key]?.value
+
+    const costMatch = valueString.match(costPattern)
+
+    if (costMatch && costMatch[1]) {
+      const costValue = parseFloat(costMatch[1].replace(/,/g, ""))
+      if (costValue) {
+        const newKey = `${key}_usd`
+        city_traits[newKey] = costValue
+      }
+    }
+
+    if (key === "internet") {
+      const internetPattern = /([\d.]+)Mbps/
+      const internetMatch = valueString.match(internetPattern)
+      if (internetMatch && internetMatch[1]) {
+        const internetValue = parseFloat(internetMatch[1])
+        countryContent.details.internet.value = internetValue
+        if (internetValue) {
+          city_traits["internet_speed_mbps"] = internetValue
+        }
+      }
+    }
+
+    if (key === "power") {
+      city_traits["power"] = valueString
+    }
+
+    if (key === "average_trip_length") {
+      const tripLengthPattern = /(\d+)\s+days/
+      const tripLengthMatch = valueString.match(tripLengthPattern)
+      if (tripLengthMatch && tripLengthMatch[1]) {
+        const tripLengthValue = parseFloat(tripLengthMatch[1])
+        city_traits["average_trip_length_days"] = tripLengthValue
+      }
+    }
+
+    if (key === "tipping") {
+      const tippingPattern = /(\d+(\.\d+)?)%/
+      const tippingMatch = valueString.match(tippingPattern)
+      if (tippingMatch && tippingMatch[1]) {
+        const tippingValue = parseFloat(tippingMatch[1], 10)
+        city_traits["tipping"] = tippingValue
+      } else if (valueString.toLowerCase() === "no") {
+        city_traits["tipping"] = 0
+      }
+    }
+
+    if (key === "return_rate") {
+      const returnRatePattern = /(\d+)%/
+      const returnRateMatch = valueString.match(returnRatePattern)
+      if (returnRateMatch && returnRateMatch[1]) {
+        const returnRateValue = parseInt(returnRateMatch[1], 10)
+        city_traits.return_rate_percentage = returnRateValue
+      }
+    }
+
+    if (key === "gdp_per_capita") {
+      const gdpPattern = /\$\s?([\d,]+)/
+      const gdpMatch = valueString.match(gdpPattern)
+      if (gdpMatch && gdpMatch[1]) {
+        const gdpValue = parseFloat(gdpMatch[1].replace(/,/g, ""))
+        city_traits.gdp_per_capita_usd = gdpValue
+      }
+    }
+  }
+
+  countryContent.city_traits = city_traits
+}
+
+const extractCountryTraits = (countryContent) => {
+  const country_traits = {}
+  const details = countryContent?.details
+
+  for (const key of Object.keys(details)) {
+    if (
+      key === "online_electronics_shop" ||
+      key === "apartment_listings" ||
+      key === "best_short_haul_airline" ||
+      key === "best_intnl_airline" ||
+      key === "best_hospital"
+    ) {
+      country_traits[key] = details[key]
+    }
+  }
+
+  countryContent.country_traits = country_traits
+}
+
 async function main() {
   const result = {}
   const files = fs.readdirSync(htmlDataDir)
@@ -179,7 +321,10 @@ async function main() {
         }
 
         const countryName = file.replace("_page.html", "")
-        const countryData = processCountryHtml(html)
+        let countryData = processCountryHtml(html)
+        transformAttributesToScores(countryData)
+        extractCityTraits(countryData)
+        extractCountryTraits(countryData)
         result[countryName] = countryData
         resolve()
       })
