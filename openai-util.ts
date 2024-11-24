@@ -8,8 +8,7 @@ interface CitiesData {
 
 interface CityData {
   scores: Scores
-  details: Details
-  pros_cons: ProsCons
+  city_traits: CityTraits
   reviews: string[]
   description: string | null
   description_kor: string | null
@@ -20,84 +19,55 @@ interface Scores {
   family_score: string
   community_score: string
   leisure_quality: string
+  racial_tolerance: string
   education_index_score: string
   english_speaking: string
   walkScore_score: string
   road_traffic_score: string
   airlines_score: string
   lost_luggage_score: string
+  top_hospital_score: string
   happiness_score: string
   nightlife: string
   wifi_availability: string
   places_to_work_score: string
-  ac_availability: string
-  friendliness_to_foreigners: string
+  press_freedom_index_score: string
   female_friendly: string
   lgbt_friendly: string
   startup_score: string
-  apartment_cost: string
-  coworking_cost: string
-  average_meal_price: string
-  non_alcoholic_drink_in_cafe: string
-  beer_in_cafe: string
-  coffee_in_cafe: string
+  foreign_land_ownership: string
   safety: string
   food_safety: string
+  lack_of_crime: string
   power_grid: string
+  vulnerability_to_climate_change: string
 }
 
-interface Details {
-  total_score: DetailValue
-  cost: DetailValue
-  internet: DetailValue
-  temperature_now: DetailValue
-  humidity_now: DetailValue
-  income_level: DetailValue
-  people_density: DetailValue
-  continent: DetailValue
-  country: DetailValue
-  average_trip_length: DetailValue
-  internet_speed_avg: DetailValue
-  weather_now: DetailValue
-  travel_medical_insurance: DetailValueWithUrl
-  "1_000_xof_in_usd": DetailValue
-  suggested_atm_take_out: DetailValue
-  best_coworking_space: DetailValueWithUrl
-  best_coffee_place: DetailValueWithUrl
-  best_alt_coffee_place: DetailValueWithUrl
-  tap_water: DetailValueWithUrl
-  population: DetailValue
-  gdp_per_capita: DetailValue
-  population_density: DetailValue
-  gender_ratio_population: DetailValue
-  gender_ratio_young_adults: DetailValue
-  gender_ratio_nomads: DetailValue
-  religious_government: DetailValue
-  apartment_listings: DetailValueWithUrl
-  best_short_haul_air_carrier: DetailValueWithUrl
-  best_int_l_air_carrier: DetailValueWithUrl
-  best_hospital: DetailValueWithUrl
-  cost_of_living_for_nomad: DetailValue
-  cost_of_living_for_expat: DetailValue
-  cost_of_living_for_family: DetailValue
-  cost_of_living_for_local: DetailValue
-  airbnb_median_price: DetailValueWithUrl
-  hotel_median_price: DetailValue
-}
-
-interface DetailValue {
-  value: string
-}
-
-interface DetailValueWithUrl extends DetailValue {
-  url?: string
-  image_url?: string
-  logo_url?: string
-}
-
-interface ProsCons {
-  pros: string[]
-  cons: string[]
+interface CityTraits {
+  cost_usd: string
+  internet_speed_mbps: string
+  income_level_usd: string
+  average_trip_length_days: string
+  power: string
+  tipping: string
+  return_rate_percentage: string
+  gdp_per_capita_usd: string
+  cost_of_living_for_nomad_usd: string
+  cost_of_living_for_expat_usd: string
+  cost_of_living_for_family_usd: string
+  cost_of_living_for_local_usd: string
+  airbnb_median_price_usd: string
+  hotel_median_price_usd: string
+  beer_in_cafe_usd: string
+  coffee_in_cafe_usd: string
+  average_meal_price_usd: string
+  non_alcoholic_drink_in_cafe_usd: string
+  apartment_cost_usd: string
+  coworking_cost_usd: string
+  intl_school_cost_yearly_usd: string
+  taxi_cost_per_km_usd: string
+  mobile_cost_per_minute_usd: string
+  country: string
 }
 
 dotenv.config()
@@ -126,9 +96,7 @@ const createCityDescription = async ({
   })
 
   const systemPrompt = `
-You are a helpful assistant specialized in generating brief, engaging descriptions of cities. Your responses should be in clear, user-friendly English, suitable for a general audience, including non-native speakers.
-
-Your task is to provide a balanced view of each city by prioritizing key aspects mentioned in user reviews and supplementing with additional information if needed. Ensure the descriptions are concise, informative, and written in a friendly, conversational tone.
+You are a travel assistant. Your task is to generate a casual and engaging description of the city in website frontpage, based on genuine reviews from people who have visited the city. The description should feel like you're introducing the city to the audience in friendly tone. Use the provided reviews to highlight the city's unique experiences, pros, and cons, while keeping the tone conversational and approachable. Avoid using generic descriptions and focus on the personal insights and experiences shared in the reviews."
 
 Focus on the following aspects:
 - Positive and negative aspects of living in the city.
@@ -136,14 +104,11 @@ Focus on the following aspects:
 - Notable attractions, unique characteristics, and local customs.
 - Challenges such as language barriers, high costs, or limited public transportation.
 - Practical tips for visitors and residents.
-
-f user reviews are too focused on "digital nomad" topics, generalize the information to make it relevant for all travelers and residents. If reviews do not cover these topics, add relevant city information to provide a complete overview:
-
-- Natural scenery, amenities, and quality of life.
 - Popular activities and historical aspects.
 - Recommended neighborhoods, necessary precautions, or specific cultural considerations.
 
-Keep descriptions between 150 to 200 words and use simple language. Avoid making it sound too formal or AI-generated, and ensure it doesn't reference review sources directly. Additionally, DO NOT mention any topics related to "nomads.com" or cannabis.
+Avoid description with starting with "welcome to". Avoid using too fancy English words, as the audience is non-native
+Keep descriptions between 150 to 200 words and use simple language. Avoid making it sound too formal, and ensure it doesn't reference review sources directly. Additionally, DO NOT mention any topics related to "nomads.com" or cannabis.
 `
 
   const completion = await openai.chat.completions.create({
@@ -170,13 +135,9 @@ const translateDescription = async (
     apiKey: process.env.OPENAI_API_KEY,
   })
 
-  const systemPrompt = `You are a translation assistant specialized in translating English text into smooth and natural Korean. Your task is to translate city descriptions from English to Korean, ensuring that the translation is accurate, fluent, and culturally appropriate. Pay attention to context and nuance to maintain the original meaning and tone.
+  const systemPrompt = `Please rewrite the following Korean text to make it sound more natural and fluent, suitable for native Korean speakers:
 
-    Example Input: "Austin, Texas, is a vibrant city known for its lively culture and a strong tech scene. Many residents appreciate the high-quality food options, particularly the local BBQ and Tex-Mex cuisine. The centralized area around Lady Bird Lake is popular for its scenic views and walking paths, making it great for outdoor activities like running, biking, or simply enjoying the sunshine."
-
-    Example Output: "오스틴, 텍사스는 활기찬 문화와 강력한 기술 산업으로 유명한 도시입니다. 많은 주민들은 특히 현지 BBQ와 텍스멕스 요리를 포함한 고품질의 음식 옵션을 높이 평가합니다. 레이디 버드 호수 주변의 중심 지역은 경치 좋은 풍경과 산책로로 유명하여 달리기, 자전거 타기 또는 단순히 햇볕을 즐기기에 좋습니다."
-
-    Ensure that the translations are coherent and maintain the essence of the original English description.`
+[Insert your Korean text here]`
 
   const completion = await openai.chat.completions.create({
     model: "gpt-4o-mini",
@@ -184,7 +145,7 @@ const translateDescription = async (
       { role: "system", content: systemPrompt },
       {
         role: "user",
-        content: `Please translate this sentence into Korean: ${cityDescription}`,
+        content: cityDescription,
       },
     ],
   })
@@ -202,7 +163,7 @@ const extractDescriptionFromReviews = async (
     if (reviews.length !== 0) {
       const description = await createCityDescription({
         cityName: city,
-        countryName: citiesData[city].details.country.value,
+        countryName: citiesData[city].city_traits.country,
         cityReviews: reviews,
       })
       citiesData[city].description = description
@@ -217,9 +178,9 @@ const translateDescriptionToKorean = async (
   filePath: string
 ) => {
   for (const city of Object.keys(citiesData)) {
-    const description = citiesData[city].description
-    if (description) {
-      const koreanDescription = await translateDescription(description)
+    const korean_description = citiesData[city].description_kor
+    if (korean_description) {
+      const koreanDescription = await translateDescription(korean_description)
       citiesData[city].description_kor = koreanDescription
       writeCitiesJSONData(filePath, citiesData)
       console.log(`Korean description generated for city ${city}`)
@@ -228,10 +189,13 @@ const translateDescriptionToKorean = async (
 }
 
 const main = async () => {
-  const filePath = "./city_data_output/output.json"
+  const filePath = "./city_data_output/openai_output.json"
   const jsonData = readCitiesJSONData(filePath)
-  await extractDescriptionFromReviews(jsonData, filePath)
-  //await translateDescriptionToKorean(jsonData, filePath)
+  //await extractDescriptionFromReviews(
+  //  jsonData,
+  //  "./city_data_output/openai_output.json"
+  //)
+  await translateDescriptionToKorean(jsonData, filePath)
 }
 
 main()
