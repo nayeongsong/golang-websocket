@@ -1,0 +1,16 @@
+{
+  "name": "city-attractions-openai",
+  "version": "1.0.0",
+  "main": "openai-attraction-generate.ts",
+  "scripts": {
+    "start": "npx tsx openai-attraction-generate.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node": "^22.0.0",
+    "openai": "^4.73.1",
+    "slugify": "^1.6.6",
+    "typescript": "^5.7.2",
+    "zod": "^3.23.8"
+  }
+}
