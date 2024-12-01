@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "openai-attraction-generate.ts",
   "scripts": {
-    "start": "npx tsx openai-attraction-generate.ts"
+    "generate-attraction": "npx tsx openai-attraction-generate.ts",
+    "generate-translation": "npx tsx openai-attraction-translate.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
